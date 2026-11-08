@@ -1,0 +1,43 @@
+<header class="hero"><div class="wrap">
+  <p class="eyebrow"><span lang="en">Pulled 8 November 2026</span><span lang="zh">2026 年 11 月 8 日匯出</span></p>
+  <h1><span lang="en">Archive</span><span lang="zh">原始紀錄</span></h1>
+  <p class="lede">
+    <span lang="en">The full record of the GIS + Data Phys Discord server, exported by bot with every attachment, plus snapshots of the team's Google Docs. Everything on the other pages links back here.</span>
+    <span lang="zh">GIS + Data Phys Discord 伺服器的完整紀錄，由機器人連同所有附件一起匯出，另附團隊 Google 文件的快照。其他頁面上的所有內容都可以在這裡找到原始出處。</span>
+  </p>
+</div></header>
+
+<section><div class="wrap">
+  <h2><span lang="en">Channels</span><span lang="zh">頻道</span></h2>
+  <p class="sub"><span lang="en">Each channel as a readable page (with images inline) and as JSON. Server-join notices are not counted.</span><span lang="zh">每個頻道都有可閱讀的網頁版（圖片直接顯示）與 JSON 版。加入伺服器的系統訊息不計入。</span></p>
+  <!--CHANNELS-->
+  <p class="small"><span lang="en">The server's other forums (#data-physicalization, #field-trip, #maps, #storylines) hold no posts, and the two voice channels have no text. The bot was checked against each one on the day of the pull.</span><span lang="zh">伺服器其餘的論壇頻道（#data-physicalization、#field-trip、#maps、#storylines）沒有任何貼文，兩個語音頻道也沒有文字。匯出當天已逐一確認機器人讀得到這些頻道。</span></p>
+</div></section>
+<hr class="sep">
+
+<section><div class="wrap">
+  <h2><span lang="en">Team documents</span><span lang="zh">團隊文件</span></h2>
+  <table class="t"><tbody>
+    <tr><td><a href="archive/docs/qgis-storyline.md">qgis-storyline.md</a></td><td><span lang="en">The storyline doc: every version from 7 July to the cleaned final, Dr. Daniel's feedback, the citation guide.</span><span lang="zh">故事線文件：7 月 7 日到清理版的每個版本、Dr. Daniel 的回饋、引用指南。</span></td></tr>
+    <tr><td><a href="archive/docs/gis-notes.md">gis-notes.md</a></td><td><span lang="en">Class notes, 14 July.</span><span lang="zh">7 月 14 日課堂筆記。</span></td></tr>
+    <tr><td><a href="archive/docs/progress-qgis.md">progress-qgis.md</a></td><td><span lang="en">Progress log and figure descriptions, 30 July.</span><span lang="zh">7 月 30 日進度紀錄與圖說。</span></td></tr>
+  </tbody></table>
+  <p class="small"><span lang="en">Text only, read on 8 November 2026. Images inside the docs stay in Google Drive.</span><span lang="zh">僅文字，2026 年 11 月 8 日讀取。文件內的圖片仍在 Google Drive。</span></p>
+</div></section>
+<hr class="sep">
+
+<section><div class="wrap wide">
+  <h2><span lang="en">Every file</span><span lang="zh">所有檔案</span></h2>
+  <p class="sub"><span lang="en">All attachments posted in the server, oldest first.</span><span lang="zh">伺服器中貼出的所有附件，由舊到新。</span></p>
+  <!--FILES-->
+</div></section>
+<hr class="sep">
+
+<section><div class="wrap">
+  <h2><span lang="en">Pulling again</span><span lang="zh">重新匯出</span></h2>
+  <p><span lang="en">The export uses</span><span lang="zh">匯出工具是</span> <a href="https://github.com/Tyrrrz/DiscordChatExporter">DiscordChatExporter</a> <span lang="en">(CLI 2.47) with a bot that has View Channels and Read Message History on the server. Forum channels have no messages of their own, so threads must be included or most of a forum server goes missing.</span><span lang="zh">（CLI 2.47），搭配一個在伺服器上有「檢視頻道」與「讀取訊息歷史」權限的機器人。論壇頻道本身沒有訊息，一定要把討論串一起匯出，否則論壇型伺服器的大部分內容會遺漏。</span></p>
+  <pre class="code">DISCORD_TOKEN=… dce exportguild -g 1521456968080822402 \
+  --include-threads All --include-vc false \
+  -f Json -o "json/%c.json" --media --reuse-media --media-dir media</pre>
+  <p><span lang="en">Attachment links in Discord expire, which is why media is downloaded with the text. Then run <code>python3 tools/build.py</code> to rebuild the pages.</span><span lang="zh">Discord 的附件連結會過期，所以要連同文字一起下載。完成後執行 <code>python3 tools/build.py</code> 重建頁面。</span></p>
+</div></section>

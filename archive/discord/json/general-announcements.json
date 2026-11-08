@@ -1,0 +1,2084 @@
+{
+  "guild": {
+    "id": "1521456968080822402",
+    "name": "GIS + Data Phys",
+    "iconUrl": "../media/aee65933ad51aad3cbdccfc9e821a100-6b39aedf1151a19e.png"
+  },
+  "channel": {
+    "id": "1521456968672481356",
+    "type": "GuildTextChat",
+    "categoryId": "1521456968672481354",
+    "category": "Text Channels",
+    "name": "general-announcements",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-11-08T17:53:53.222559+08:00",
+  "messages": [
+    {
+      "id": "1521805465133125663",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:11:36.666+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "963489731579113562",
+        "name": "jasonwang_gems",
+        "discriminator": "0000",
+        "nickname": "Jason Wang",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/bce535c60766b95a35b3909ead25e347-de72d8cf8ea56edb.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521805654967320649",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:12:21.926+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "623832394671325184",
+        "name": "no.ee.tee",
+        "discriminator": "0000",
+        "nickname": "ταυ",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/1213cfa5dce1b5e533a019c8f6cf9055-acfc2e0c1b169a2a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521805748890239017",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:12:44.319+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1344321976189059123",
+        "name": "siuvicr_46224",
+        "discriminator": "0000",
+        "nickname": "Sophie Huang",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/0-eb806f2bcf037a33.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521805818704429226",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:13:00.964+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1373622896051621913",
+        "name": ".__ethan",
+        "discriminator": "0000",
+        "nickname": "Ethan",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/b48f4f99e116db8a14e316d384612220-955370ecdf838034.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521805886312681493",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:13:17.083+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521807067034288189",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:17:58.589+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1065231187620151316",
+        "name": "soupiayeyey",
+        "discriminator": "0000",
+        "nickname": "soph",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/156b9fed094eb04dccc584f1cb60d4e8-fd77bfc6763758a1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521807845035737149",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:21:04.079+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "877107414074265620",
+        "name": "itz_chlochlo",
+        "discriminator": "0000",
+        "nickname": "chloe",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/3600611acfbf08135aa53453e214181d-6c89efcee721478a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521808492418170962",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:23:38.427+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1217406376918253569",
+        "name": "sophieliuu",
+        "discriminator": "0000",
+        "nickname": "sophie",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/b207676a0fb4332b32cc4a3b5d123a02-3fba94266718db15.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521810014514319412",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:29:41.323+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "898209893893423125",
+        "name": "nmi_lin",
+        "discriminator": "0000",
+        "nickname": "naomi",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/92ad3899e965827c98f6d6808fa58fed-198cd99cf3541535.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521811244955336835",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:34:34.683+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "903627129806274570",
+        "name": "oopsie_.doopsie",
+        "discriminator": "0000",
+        "nickname": "Ryan_.",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/a934c9199ef31cd9cfb7e09872499d73-926dac72c903337a.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521812189693083758",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:38:19.926+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "880345093473718323",
+        "name": "halonotbad",
+        "discriminator": "0000",
+        "nickname": "Eva",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521813189132681287",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:42:18.211+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1146770042306961518",
+        "name": "abbyt1202",
+        "discriminator": "0000",
+        "nickname": "ABBY",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2f6b065c3f5c15448e7b3ca482ce6916-c675bcc4e8460d02.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521813810128752800",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:44:46.268+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "735663402763944018",
+        "name": "_antonlin_",
+        "discriminator": "0000",
+        "nickname": "Anton",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2-adbb4633b5a18a60.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521814618752679957",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T17:47:59.059+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1440957745896493138",
+        "name": "annz320",
+        "discriminator": "0000",
+        "nickname": "Anna Chuang",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521827286108606514",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T18:38:19.192+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1029471665903648838",
+        "name": "sphiec",
+        "discriminator": "0000",
+        "nickname": "s",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/e99f84dad2de2d44ed73402f00c9df4d-40bb3e3949fbf478.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521839115816013834",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T19:25:19.614+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "893058451763265547",
+        "name": "audrey_chu0528",
+        "discriminator": "0000",
+        "nickname": "audrey",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/41ceafb412b41bd791e20ec995eee516-e142259207a7631b.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521840016102264935",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T19:28:54.259+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1232235327821713428",
+        "name": "yushan15",
+        "discriminator": "0000",
+        "nickname": "Gina",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/6c5996770c985bcd6e5b68131ff2ba04-f0067f24cb3f894f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521840364196069397",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T19:30:17.251+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1245959657516961793",
+        "name": "hongjoshua117",
+        "discriminator": "0000",
+        "nickname": "hongjoshua117",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/59e7fd526407eca10bdcd5cc4cdbc695-f80c6dd414549217.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521841308635889755",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T19:34:02.423+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "899991192060710912",
+        "name": "dylanhuang98",
+        "discriminator": "0000",
+        "nickname": "Dylan",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/42e8fb89e26bea86e423fc9b67c992ef-062006a80415cba3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521842418201399306",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T19:38:26.964+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1086354790184927263",
+        "name": "jessielau.",
+        "discriminator": "0000",
+        "nickname": "Jessie Lau",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/4-4551a51a707878de.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521872696294510662",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T21:38:45.824+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1114564386070208593",
+        "name": "audrey0309",
+        "discriminator": "0000",
+        "nickname": "Audrey",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/ff25a5bfaf71367933146dc9fdb8e61f-aa198a99900e4ae2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521875751433932861",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-01T21:50:54.226+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1441005215028478066",
+        "name": "sara_chen.7090",
+        "discriminator": "0000",
+        "nickname": "Sara",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/839b1d201d0a14b437385773f0bd5468-6b40eb283e6fdff4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522046324063600802",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T09:08:41.91+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1394293650673893496",
+        "name": "phoebeycc30",
+        "discriminator": "0000",
+        "nickname": "Phoebe Chen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/96a02ba639260ad041668d9c038da695-253793e0098f325e.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522051716969791631",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T09:30:07.679+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "803443482320306187",
+        "name": "ethanliu0541",
+        "discriminator": "0000",
+        "nickname": "ethanl",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/a2abde76175206346bdebfffe4137e4a-a6ea1b65749b2f66.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522060161651445813",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T10:03:41.048+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "760783105866465280",
+        "name": "mruserguy15",
+        "discriminator": "0000",
+        "nickname": "Felix",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/b8af4fe4e43700423747ac11ee31947a-259e565ec4d422f5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522067828767850577",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T10:34:09.031+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1323144063939248259",
+        "name": "liviiii23",
+        "discriminator": "0000",
+        "nickname": "Liviiii",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522075892132745297",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T11:06:11.487+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "619090761329410059",
+        "name": "n304682",
+        "discriminator": "0000",
+        "nickname": "N30",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/ccff1677c93d08759f3972da0b5b32a7-a63ebc5da3133234.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522076638702207077",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T11:09:09.483+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "898014968723677184",
+        "name": "olivia3686",
+        "discriminator": "0000",
+        "nickname": "Olivia\uD83E\uDEE7\uD83E\uDEE7",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/46e54f6c620d3ea39e3f1d01511d6588-03e2093a79591bc4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522236119771779092",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-02T21:42:52.733+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "944444436811763783",
+        "name": "itz_bruce",
+        "discriminator": "0000",
+        "nickname": "itz_bruce",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/0632faefbf8e06deeffa61a08d5779b3-ba3af24e553972d4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522455515924398081",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-03T12:14:40.852+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1391645335226679388",
+        "name": "dr_daniel_bloom",
+        "discriminator": "0000",
+        "nickname": "Dr. Daniel Bloom",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522459385409044490",
+      "type": "Default",
+      "timestamp": "2026-07-03T12:30:03.409+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi everyone, please check the #chat channel for a recap of yesterday, as well as links to your homework. 太謝謝你們！",
+      "author": {
+        "id": "1391645335226679388",
+        "name": "dr_daniel_bloom",
+        "discriminator": "0000",
+        "nickname": "Dr. Daniel Bloom",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4F",
+            "code": "clap",
+            "isAnimated": false,
+            "imageUrl": "../media/1f44f-3d38127c4e6c3af2.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "963489731579113562",
+              "name": "jasonwang_gems",
+              "discriminator": "0000",
+              "nickname": "Jason Wang",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/bce535c60766b95a35b3909ead25e347-de72d8cf8ea56edb.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "../media/1f44d-27259a90ef10d877.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1122880916323307562",
+              "name": "va1th3nerd_87506",
+              "discriminator": "0000",
+              "nickname": "Renee",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522607691657117709",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-03T22:19:22.374+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "873223543599558727",
+        "name": "mia_guo28",
+        "discriminator": "0000",
+        "nickname": "Mia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/5-e9bdbc123bbdd5b5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522620672981860494",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-03T23:10:57.363+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "920636748332142602",
+        "name": "himurohyouken",
+        "discriminator": "0000",
+        "nickname": "Katherine Chen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/e71fccf93382daecf7a4ae26cc2d87bd-4293cc7bd0e42dc9.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522624596946456777",
+      "type": "Reply",
+      "timestamp": "2026-07-03T23:26:32.909+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1245959657516961793",
+        "name": "hongjoshua117",
+        "discriminator": "0000",
+        "nickname": "hongjoshua117",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/59e7fd526407eca10bdcd5cc4cdbc695-f80c6dd414549217.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [
+        {
+          "id": "816087792291282944",
+          "name": "Sup",
+          "format": "Lottie",
+          "sourceUrl": "../media/816087792291282944-56b92d64d3196a8b.json"
+        }
+      ],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "920636748332142602",
+          "name": "himurohyouken",
+          "discriminator": "0000",
+          "nickname": "Katherine Chen",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/e71fccf93382daecf7a4ae26cc2d87bd-4293cc7bd0e42dc9.png"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1522620672981860494",
+        "channelId": "1521456968672481356",
+        "guildId": "1521456968080822402"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1522999711064264777",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-05T00:17:07.084+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1413835904266801183",
+        "name": "soph1a.yy",
+        "discriminator": "0000",
+        "nickname": "sophia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/9e558a41adc194ba29f1687f9f2bfa50-0ef6b39cf762d450.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1523931427740057660",
+      "type": "Default",
+      "timestamp": "2026-07-07T13:59:25.65+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@everyone \nRemember the reaction rules.\nWhen read, react.",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDD25",
+            "code": "fire",
+            "isAnimated": false,
+            "imageUrl": "../media/1f525-8fe4fec316602fac.svg"
+          },
+          "count": 13,
+          "users": [
+            {
+              "id": "623832394671325184",
+              "name": "no.ee.tee",
+              "discriminator": "0000",
+              "nickname": "ταυ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/1213cfa5dce1b5e533a019c8f6cf9055-acfc2e0c1b169a2a.png"
+            },
+            {
+              "id": "735663402763944018",
+              "name": "_antonlin_",
+              "discriminator": "0000",
+              "nickname": "Anton",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2-adbb4633b5a18a60.png"
+            },
+            {
+              "id": "760783105866465280",
+              "name": "mruserguy15",
+              "discriminator": "0000",
+              "nickname": "Felix",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/b8af4fe4e43700423747ac11ee31947a-259e565ec4d422f5.png"
+            },
+            {
+              "id": "873223543599558727",
+              "name": "mia_guo28",
+              "discriminator": "0000",
+              "nickname": "Mia",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/5-e9bdbc123bbdd5b5.png"
+            },
+            {
+              "id": "893058451763265547",
+              "name": "audrey_chu0528",
+              "discriminator": "0000",
+              "nickname": "audrey",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/41ceafb412b41bd791e20ec995eee516-e142259207a7631b.png"
+            },
+            {
+              "id": "1065231187620151316",
+              "name": "soupiayeyey",
+              "discriminator": "0000",
+              "nickname": "soph",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/156b9fed094eb04dccc584f1cb60d4e8-fd77bfc6763758a1.png"
+            },
+            {
+              "id": "1122880916323307562",
+              "name": "va1th3nerd_87506",
+              "discriminator": "0000",
+              "nickname": "Renee",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+            },
+            {
+              "id": "1245959657516961793",
+              "name": "hongjoshua117",
+              "discriminator": "0000",
+              "nickname": "hongjoshua117",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/59e7fd526407eca10bdcd5cc4cdbc695-f80c6dd414549217.png"
+            },
+            {
+              "id": "1323144063939248259",
+              "name": "liviiii23",
+              "discriminator": "0000",
+              "nickname": "Liviiii",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+            },
+            {
+              "id": "1344321976189059123",
+              "name": "siuvicr_46224",
+              "discriminator": "0000",
+              "nickname": "Sophie Huang",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/0-eb806f2bcf037a33.png"
+            },
+            {
+              "id": "1373622896051621913",
+              "name": ".__ethan",
+              "discriminator": "0000",
+              "nickname": "Ethan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/b48f4f99e116db8a14e316d384612220-955370ecdf838034.png"
+            },
+            {
+              "id": "1394293650673893496",
+              "name": "phoebeycc30",
+              "discriminator": "0000",
+              "nickname": "Phoebe Chen",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/96a02ba639260ad041668d9c038da695-253793e0098f325e.png"
+            },
+            {
+              "id": "1440957745896493138",
+              "name": "annz320",
+              "discriminator": "0000",
+              "nickname": "Anna Chuang",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC99",
+            "code": "blue_heart",
+            "isAnimated": false,
+            "imageUrl": "../media/1f499-93a1cbf118500eac.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "880345093473718323",
+              "name": "halonotbad",
+              "discriminator": "0000",
+              "nickname": "Eva",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1523939222128693371",
+      "type": "Default",
+      "timestamp": "2026-07-07T14:30:23.977+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is my map (Dr. Daniel) of Renewable and Non-Renewable powerplants in China",
+      "author": {
+        "id": "1391645335226679388",
+        "name": "dr_daniel_bloom",
+        "discriminator": "0000",
+        "nickname": "Dr. Daniel Bloom",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+      },
+      "attachments": [
+        {
+          "id": "1523939222330015836",
+          "url": "../media/Screenshot_2026-07-07_at_2.29.19_PM-8cfbaa43bd82f2fd.png",
+          "fileName": "Screenshot_2026-07-07_at_2.29.19_PM.png",
+          "fileSizeBytes": 558309
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1524295983771422810",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-08T14:08:02.581+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1340126710099611749",
+        "name": "vivian_0129",
+        "discriminator": "0000",
+        "nickname": "Vivian",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/88fd3df76725a813fa60b653b24dabf1-3f9707ff91c7f150.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1524405137899130930",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-07-08T21:21:46.953+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "913391895873454110",
+        "name": "jacquelynino",
+        "discriminator": "0000",
+        "nickname": "jacquelyn",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/1-b2132fce1d97a203.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1527234496783450172",
+      "type": "Default",
+      "timestamp": "2026-07-16T16:44:38.678+08:00",
+      "timestampEdited": "2026-07-16T16:46:29.868+08:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi @Dr. Daniel Bloom @Anna Chuang @Eva @Renee @Liviiii ,\n\nDue to an off-campus iGEM event, our class on Tuesday, July 21 (7/21) has been rescheduled to Monday, July 20 (7/20).\n\nRescheduled Class Time:\n\uD83D\uDCC5 Monday, July 20\n\uD83D\uDD56 19:00 ~ 20:30 PM (1.5 hours)\n\uD83D\uDCBB Online (Google Meet)\n\nPlease join the Google Meet on time. Thank you\uD83D\uDE07 \n\nGoogle Meet Link: https://meet.google.com/nnr-zxpb-cyo?authuser=0\n\n** Please react with a \uD83D\uDC4D once you've read this. Thanks ❤️ **",
+      "author": {
+        "id": "1340126710099611749",
+        "name": "vivian_0129",
+        "discriminator": "0000",
+        "nickname": "Vivian",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/88fd3df76725a813fa60b653b24dabf1-3f9707ff91c7f150.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Meet",
+          "url": "https://meet.google.com/nnr-zxpb-cyo?authuser=0",
+          "timestamp": null,
+          "description": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "thumbnail": {
+            "url": "../media/logo_meet_2026_color_1x_web_512dp-9420746e4832c72f.png",
+            "canonicalUrl": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+            "width": 512,
+            "height": 512
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "../media/1f44d-27259a90ef10d877.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "880345093473718323",
+              "name": "halonotbad",
+              "discriminator": "0000",
+              "nickname": "Eva",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+            },
+            {
+              "id": "1122880916323307562",
+              "name": "va1th3nerd_87506",
+              "discriminator": "0000",
+              "nickname": "Renee",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCAF",
+            "code": "100",
+            "isAnimated": false,
+            "imageUrl": "../media/1f4af-4cff5d0d708f8947.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1391645335226679388",
+              "name": "dr_daniel_bloom",
+              "discriminator": "0000",
+              "nickname": "Dr. Daniel Bloom",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "1323144063939248259",
+          "name": "liviiii23",
+          "discriminator": "0000",
+          "nickname": "Liviiii",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+        },
+        {
+          "id": "1122880916323307562",
+          "name": "va1th3nerd_87506",
+          "discriminator": "0000",
+          "nickname": "Renee",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+        },
+        {
+          "id": "1440957745896493138",
+          "name": "annz320",
+          "discriminator": "0000",
+          "nickname": "Anna Chuang",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+        },
+        {
+          "id": "880345093473718323",
+          "name": "halonotbad",
+          "discriminator": "0000",
+          "nickname": "Eva",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+        },
+        {
+          "id": "1391645335226679388",
+          "name": "dr_daniel_bloom",
+          "discriminator": "0000",
+          "nickname": "Dr. Daniel Bloom",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+        }
+      ],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDCC5",
+          "code": "date",
+          "isAnimated": false,
+          "imageUrl": "../media/1f4c5-870c2b677b7a9f6b.svg"
+        },
+        {
+          "id": "",
+          "name": "\uD83D\uDD56",
+          "code": "clock7",
+          "isAnimated": false,
+          "imageUrl": "../media/1f556-37308e30a0a2808a.svg"
+        },
+        {
+          "id": "",
+          "name": "\uD83D\uDCBB",
+          "code": "computer",
+          "isAnimated": false,
+          "imageUrl": "../media/1f4bb-21dba38a2a5f320a.svg"
+        },
+        {
+          "id": "",
+          "name": "\uD83D\uDE07",
+          "code": "innocent",
+          "isAnimated": false,
+          "imageUrl": "../media/1f607-0fb5bc534352619c.svg"
+        },
+        {
+          "id": "",
+          "name": "\uD83D\uDC4D",
+          "code": "thumbsup",
+          "isAnimated": false,
+          "imageUrl": "../media/1f44d-27259a90ef10d877.svg"
+        },
+        {
+          "id": "",
+          "name": "❤️",
+          "code": "heart",
+          "isAnimated": false,
+          "imageUrl": "../media/2764-a3d2500d7e491034.svg"
+        }
+      ]
+    },
+    {
+      "id": "1528333490213490739",
+      "type": "Default",
+      "timestamp": "2026-07-19T17:31:39.13+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Eva @Renee @Anna Chuang @Liviiii @Dr. Daniel Bloom Friendly Reminder: Please join the Google Meet on time tmr. Thank you❤️",
+      "author": {
+        "id": "1340126710099611749",
+        "name": "vivian_0129",
+        "discriminator": "0000",
+        "nickname": "Vivian",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/88fd3df76725a813fa60b653b24dabf1-3f9707ff91c7f150.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "../media/1f44d-27259a90ef10d877.svg"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "880345093473718323",
+              "name": "halonotbad",
+              "discriminator": "0000",
+              "nickname": "Eva",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+            },
+            {
+              "id": "1122880916323307562",
+              "name": "va1th3nerd_87506",
+              "discriminator": "0000",
+              "nickname": "Renee",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+            },
+            {
+              "id": "1440957745896493138",
+              "name": "annz320",
+              "discriminator": "0000",
+              "nickname": "Anna Chuang",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC40",
+            "code": "eyes",
+            "isAnimated": false,
+            "imageUrl": "../media/1f440-6c64d08b713ad134.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "844122807369203752",
+              "name": "timmhy",
+              "discriminator": "0000",
+              "nickname": "Timmmy",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "1323144063939248259",
+          "name": "liviiii23",
+          "discriminator": "0000",
+          "nickname": "Liviiii",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+        },
+        {
+          "id": "1122880916323307562",
+          "name": "va1th3nerd_87506",
+          "discriminator": "0000",
+          "nickname": "Renee",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+        },
+        {
+          "id": "1440957745896493138",
+          "name": "annz320",
+          "discriminator": "0000",
+          "nickname": "Anna Chuang",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+        },
+        {
+          "id": "880345093473718323",
+          "name": "halonotbad",
+          "discriminator": "0000",
+          "nickname": "Eva",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+        },
+        {
+          "id": "1391645335226679388",
+          "name": "dr_daniel_bloom",
+          "discriminator": "0000",
+          "nickname": "Dr. Daniel Bloom",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+        }
+      ],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "❤️",
+          "code": "heart",
+          "isAnimated": false,
+          "imageUrl": "../media/2764-a3d2500d7e491034.svg"
+        }
+      ]
+    },
+    {
+      "id": "1528638412771299368",
+      "type": "Reply",
+      "timestamp": "2026-07-20T13:43:18.333+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I’m so sorry, I might be an hour or so late because of something suddenly coming up",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1340126710099611749",
+          "name": "vivian_0129",
+          "discriminator": "0000",
+          "nickname": "Vivian",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/88fd3df76725a813fa60b653b24dabf1-3f9707ff91c7f150.png"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1528333490213490739",
+        "channelId": "1521456968672481356",
+        "guildId": "1521456968080822402"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1528722309941166152",
+      "type": "Default",
+      "timestamp": "2026-07-20T19:16:40.977+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Of course @Renee",
+      "author": {
+        "id": "1391645335226679388",
+        "name": "dr_daniel_bloom",
+        "discriminator": "0000",
+        "nickname": "Dr. Daniel Bloom",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1122880916323307562",
+          "name": "va1th3nerd_87506",
+          "discriminator": "0000",
+          "nickname": "Renee",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1528738234434322463",
+      "type": "Default",
+      "timestamp": "2026-07-20T20:19:57.672+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1323144063939248259",
+        "name": "liviiii23",
+        "discriminator": "0000",
+        "nickname": "Liviiii",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+      },
+      "attachments": [
+        {
+          "id": "1528738234153177149",
+          "url": "../media/taiwan_temps_yearly_summary-8211cba3f201af34.csv",
+          "fileName": "taiwan_temps_yearly_summary.csv",
+          "fileSizeBytes": 194568
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1528741201623257168",
+      "type": "Default",
+      "timestamp": "2026-07-20T20:31:45.105+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Liviiii here is your data (in PDF) now you can make another CSV from it, and import into QGIS",
+      "author": {
+        "id": "1391645335226679388",
+        "name": "dr_daniel_bloom",
+        "discriminator": "0000",
+        "nickname": "Dr. Daniel Bloom",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+      },
+      "attachments": [
+        {
+          "id": "1528741201237508117",
+          "url": "../media/CSV_-f394b657e826697b.pdf",
+          "fileName": "CSV_.pdf",
+          "fileSizeBytes": 382790
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1323144063939248259",
+          "name": "liviiii23",
+          "discriminator": "0000",
+          "nickname": "Liviiii",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1528742035815796807",
+      "type": "Default",
+      "timestamp": "2026-07-20T20:35:03.992+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1440957745896493138",
+        "name": "annz320",
+        "discriminator": "0000",
+        "nickname": "Anna Chuang",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+      },
+      "attachments": [
+        {
+          "id": "1528742035597824010",
+          "url": "../media/Screenshot_2026-07-20_at_8.34.58_PM-85982571a67363e4.png",
+          "fileName": "Screenshot_2026-07-20_at_8.34.58_PM.png",
+          "fileSizeBytes": 455636
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDD25",
+            "code": "fire",
+            "isAnimated": false,
+            "imageUrl": "../media/1f525-8fe4fec316602fac.svg"
+          },
+          "count": 5,
+          "users": [
+            {
+              "id": "1086354790184927263",
+              "name": "jessielau.",
+              "discriminator": "0000",
+              "nickname": "Jessie Lau",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/4-4551a51a707878de.png"
+            },
+            {
+              "id": "1122880916323307562",
+              "name": "va1th3nerd_87506",
+              "discriminator": "0000",
+              "nickname": "Renee",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+            },
+            {
+              "id": "1323144063939248259",
+              "name": "liviiii23",
+              "discriminator": "0000",
+              "nickname": "Liviiii",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+            },
+            {
+              "id": "1340126710099611749",
+              "name": "vivian_0129",
+              "discriminator": "0000",
+              "nickname": "Vivian",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/88fd3df76725a813fa60b653b24dabf1-3f9707ff91c7f150.png"
+            },
+            {
+              "id": "1344321976189059123",
+              "name": "siuvicr_46224",
+              "discriminator": "0000",
+              "nickname": "Sophie Huang",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/0-eb806f2bcf037a33.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1529760040804683886",
+      "type": "Default",
+      "timestamp": "2026-07-23T16:00:15.295+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1323144063939248259",
+        "name": "liviiii23",
+        "discriminator": "0000",
+        "nickname": "Liviiii",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+      },
+      "attachments": [
+        {
+          "id": "1529760040423133305",
+          "url": "../media/IMG_2984-e6e77ddeafd97f2c.jpg",
+          "fileName": "IMG_2984.jpg",
+          "fileSizeBytes": 190649
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1534013057850937536",
+      "type": "Default",
+      "timestamp": "2026-08-04T09:40:13.576+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi GIS Team @Anna Chuang @Renee @Eva @Liviiii \nTeacher Daniel is sick today and had to go to the hospital for an urgent medical examination. He will post some assignments on Discord shortly.\n\nSorry for the last-minute change, and thank you for your understanding. ❤️",
+      "author": {
+        "id": "1340126710099611749",
+        "name": "vivian_0129",
+        "discriminator": "0000",
+        "nickname": "Vivian",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/88fd3df76725a813fa60b653b24dabf1-3f9707ff91c7f150.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "../media/1f44d-27259a90ef10d877.svg"
+          },
+          "count": 5,
+          "users": [
+            {
+              "id": "844122807369203752",
+              "name": "timmhy",
+              "discriminator": "0000",
+              "nickname": "Timmmy",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+            },
+            {
+              "id": "880345093473718323",
+              "name": "halonotbad",
+              "discriminator": "0000",
+              "nickname": "Eva",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+            },
+            {
+              "id": "1122880916323307562",
+              "name": "va1th3nerd_87506",
+              "discriminator": "0000",
+              "nickname": "Renee",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+            },
+            {
+              "id": "1323144063939248259",
+              "name": "liviiii23",
+              "discriminator": "0000",
+              "nickname": "Liviiii",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+            },
+            {
+              "id": "1440957745896493138",
+              "name": "annz320",
+              "discriminator": "0000",
+              "nickname": "Anna Chuang",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "1122880916323307562",
+          "name": "va1th3nerd_87506",
+          "discriminator": "0000",
+          "nickname": "Renee",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+        },
+        {
+          "id": "880345093473718323",
+          "name": "halonotbad",
+          "discriminator": "0000",
+          "nickname": "Eva",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/035e0eb2e94ed765375dd786dc9784eb-d36f74742db0e556.png"
+        },
+        {
+          "id": "1323144063939248259",
+          "name": "liviiii23",
+          "discriminator": "0000",
+          "nickname": "Liviiii",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/600f213eb59800eda274b4bc43214103-fbe7c92d1e1cc67f.png"
+        },
+        {
+          "id": "1440957745896493138",
+          "name": "annz320",
+          "discriminator": "0000",
+          "nickname": "Anna Chuang",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+        }
+      ],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "❤️",
+          "code": "heart",
+          "isAnimated": false,
+          "imageUrl": "../media/2764-a3d2500d7e491034.svg"
+        }
+      ]
+    },
+    {
+      "id": "1534562196812468224",
+      "type": "Default",
+      "timestamp": "2026-08-05T22:02:18.507+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hello, @Dr. Daniel Bloom, we hope you are feeling better and we look forward to tomorrow's session! \nTomorrow, other than the usual storyline and map-making, we also hope to discuss the structure for our QGIS wiki page. This includes what is missing and the bridges we need to solidify between different aspects. \nThis is the wiki page of a past iGEM team that we are learning from: https://2024.igem.wiki/marburg/gis#",
+      "author": {
+        "id": "1440957745896493138",
+        "name": "annz320",
+        "discriminator": "0000",
+        "nickname": "Anna Chuang",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/007dc8a645a83774c2c52233b5cb7859-7841faadd2188443.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "../media/1f44d-27259a90ef10d877.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "844122807369203752",
+              "name": "timmhy",
+              "discriminator": "0000",
+              "nickname": "Timmmy",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "1391645335226679388",
+          "name": "dr_daniel_bloom",
+          "discriminator": "0000",
+          "nickname": "Dr. Daniel Bloom",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/f7f2e9361e8a54ce6e72580ac7b967af-5f69e8a36c5505ed.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1534755778890563594",
+      "type": "Default",
+      "timestamp": "2026-08-06T10:51:32.071+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [
+        {
+          "id": "1534755778617937970",
+          "url": "../media/age_plus_stress-46c87e2ac1b4f2b8.pdf",
+          "fileName": "age_plus_stress.pdf",
+          "fileSizeBytes": 4446389
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1568926372259303445",
+      "type": "GuildMemberJoin",
+      "timestamp": "2026-11-08T17:53:16.389+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Joined the server.",
+      "author": {
+        "id": "1537335155088298064",
+        "name": "iGEM Archiver",
+        "discriminator": "4886",
+        "nickname": "iGEM Archiver",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1568926371449675858",
+            "name": "iGEM Archiver",
+            "color": null,
+            "position": 1
+          }
+        ],
+        "avatarUrl": "../media/1-b2132fce1d97a203.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 51
+}

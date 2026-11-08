@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GIS Course · GEMS GIS Handbook</title>
+<meta name="description" content="How GEMS Taiwan learned QGIS in summer 2026 and turned it into the ReLEAF Geospatial Analysis page: course, skills, data sources, maps and the full Discord record.">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-lang="zh">
+
+<nav class="nav"><div class="nav-in">
+  <a class="brand" href="index.html">GEMS GIS</a>
+  <div class="nav-links">
+    <a href="course.html" class="on"><span lang="en">Course</span><span lang="zh">課程</span></a>
+    <a href="skills.html"><span lang="en">Skills</span><span lang="zh">技術</span></a>
+    <a href="data.html"><span lang="en">Data</span><span lang="zh">資料來源</span></a>
+    <a href="maps.html"><span lang="en">Maps</span><span lang="zh">地圖作品</span></a>
+    <a href="project.html"><span lang="en">Project</span><span lang="zh">從地圖到 wiki</span></a>
+    <a href="archive.html"><span lang="en">Archive</span><span lang="zh">原始紀錄</span></a>
+  </div>
+  <button id="langbtn" class="langbtn" type="button">English</button>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <p class="eyebrow"><span lang="en">2 July – 6 August 2026 · Tuesdays and Thursdays, 13:00</span><span lang="zh">2026 年 7 月 2 日 – 8 月 6 日 · 每週二、四 13:00</span></p>
+  <h1><span lang="en">The course</span><span lang="zh">課程</span></h1>
+  <p class="lede">
+    <span lang="en">Ten classes with Dr. Daniel Bloom. The first half teaches QGIS on world and Taiwan data; the second half applies it to the project until every map in the storyline has a first version. Each class below lists what was taught, the links given out, the homework and the maps that came back.</span>
+    <span lang="zh">與 Dr. Daniel Bloom 上的十堂課。前半段用全球與台灣資料教 QGIS；後半段套用到專案上，直到故事線裡的每張地圖都有第一版。以下每堂課列出教了什麼、發了哪些連結、作業內容，以及交回來的地圖。</span>
+  </p>
+</div></header>
+
+<section><div class="wrap">
+
+<div class="callout">
+  <h3><span lang="en">Before the first class</span><span lang="zh">第一堂課之前</span></h3>
+  <ul class="clean">
+    <li><span lang="en">Install</span><span lang="zh">安裝</span> <a href="https://qgis.org/download/">QGIS</a> <span lang="en">(the team used the 3.44 LTR).</span><span lang="zh">（團隊用的是 3.44 LTR 長期支援版）。</span></li>
+    <li><span lang="en">Download the</span><span lang="zh">下載</span> <a href="https://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip">Natural Earth quick start</a> <span lang="en">package and look around</span><span lang="zh">資料包，並瀏覽</span> <a href="https://www.naturalearthdata.com">naturalearthdata.com</a>.</li>
+    <li><span lang="en">Check that</span><span lang="zh">確認能連上</span> <a href="https://maps.nlsc.gov.tw">maps.nlsc.gov.tw</a> <span lang="en">opens on your network.</span><span lang="zh">。</span></li>
+    <li><span lang="en">Read the model page the team learned from:</span><span lang="zh">先讀團隊參考的範例頁面：</span> <a href="https://2024.igem.wiki/marburg/gis">iGEM Marburg 2024 · GIS</a>.</li>
+  </ul>
+</div>
+
+<p class="stage"><span lang="en">Stage 1 · Learn the tool</span><span lang="zh">階段 1 · 學會工具</span></p>
+
+<div class="session">
+  <div class="when"><b>7/2</b><span lang="en">Thursday</span><span lang="zh">週四</span></div>
+  <div>
+    <h3><span lang="en">Making a map</span><span lang="zh">做一張地圖</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><a href="https://www.qgistutorials.com/en/docs/3/making_a_map.html">Making a Map</a> · <a href="https://www.qgistutorials.com/en/docs/3/working_with_attributes.html">Working with Attributes</a></li>
+      <li><span lang="en">Tour of the</span><span lang="zh">介紹</span> <a href="https://maps.nlsc.gov.tw/T09E/mapshow.action">Taiwan Online Map Service</a> <span lang="en">and connecting it to QGIS as a WMTS source.</span><span lang="zh">，並在 QGIS 以 WMTS 連線。</span> <a href="skills.html#wmts"><span lang="en">Skill: WMTS basemap</span><span lang="zh">技術：WMTS 底圖</span></a></li>
+    </ul></div>
+    <div class="blk"><h4><span lang="en">Homework, due 7/7</span><span lang="zh">作業，7/7 交</span></h4><ul>
+      <li><a href="https://www.qgistutorials.com/en/docs/3/basic_vector_styling.html">Basic Vector Styling</a> · <a href="https://www.qgistutorials.com/en/docs/3/raster_styling_and_analysis.html">Basic Raster Styling</a></li>
+      <li><span lang="en">A map of Taiwan, ideally about your project: one raster layer and four vector layers from the NLSC server, a title, a north arrow and a scale grid. Export as PDF with your name on it. PDF only.</span><span lang="zh">一張台灣地圖，最好和專案有關：國土測繪中心的一個網格圖層加四個向量圖層，附標題、指北針與比例尺。署名輸出成 PDF，只收 PDF。</span></li>
+      <li><span lang="en">A 5 to 6 minute talk on your current science project and how you want to use GIS.</span><span lang="zh">準備 5 到 6 分鐘報告：你目前的科學專案，以及你想怎麼用 GIS。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#first-map"><span lang="en">Maps: first Taiwan map</span><span lang="zh">地圖：第一張台灣地圖</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/7</b><span lang="en">Tuesday, 3 hours</span><span lang="zh">週二，3 小時</span></div>
+  <div>
+    <h3><span lang="en">Terrain, raster and vector</span><span lang="zh">地形、網格與向量</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">More QGIS: terrain data, raster and vector together; homework check; project talks.</span><span lang="zh">進一步的 QGIS：地形資料、網格與向量並用；檢查作業；專案報告。</span></li>
+      <li><span lang="en">Power-plant map of China from world data, then landslides and sensitive areas in Taiwan from the</span><span lang="zh">先用全球資料畫中國發電廠，再用</span> <a href="https://www.gsmma.gov.tw/nss/p/H001d2"><span lang="en">Geological Survey (geologically sensitive areas)</span><span lang="zh">地質調查及礦業管理中心的地質敏感區</span></a><span lang="en">.</span><span lang="zh">畫台灣的山崩與敏感區。</span></li>
+      <li><span lang="en">First storyline on the whiteboard: farmers 30%, climate change 30%, biomanufacturing 40%.</span><span lang="zh">在白板上畫出第一版故事線：農民 30%、氣候變遷 30%、生物製造 40%。</span> <a href="project.html#storyline"><span lang="en">Project: storyline</span><span lang="zh">專案：故事線</span></a></li>
+      <li><span lang="en">Datasets handed out: leisure farms, rural communities, soil and water conservation areas, rural regeneration communities.</span><span lang="zh">發下的資料集：休閒農場、農村社區、特定水土保持區、農村再生社區。</span> <a href="data.html#gov"><span lang="en">Data</span><span lang="zh">資料來源</span></a></li>
+    </ul></div>
+    <div class="blk"><h4><span lang="en">Homework, due 7/9</span><span lang="zh">作業，7/9 交</span></h4><ul>
+      <li><span lang="en">Read, but do not do yet, the</span><span lang="zh">先讀、不用做</span> <a href="https://www.qgistutorials.com/en/docs/3/raster_styling_and_analysis.html"><span lang="en">raster tutorial</span><span lang="zh">網格教學</span></a><span lang="en">.</span><span lang="zh">。</span></li>
+      <li><span lang="en">Each person picks one of the shapefiles, imports it and judges whether it is useful.</span><span lang="zh">每人選一個 shapefile 匯入 QGIS，判斷它對專案有沒有用。</span></li>
+      <li><span lang="en">Start a shared Google Doc for the storyline. Everyone writes one paragraph.</span><span lang="zh">開一份共用 Google 文件寫故事線，每人寫一段。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#power-plants"><span lang="en">Maps: power plants</span><span lang="zh">地圖：發電廠</span></a><a href="maps.html#landslides"><span lang="en">Maps: landslides</span><span lang="zh">地圖：山崩</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/9</b><span lang="en">Thursday</span><span lang="zh">週四</span></div>
+  <div>
+    <h3><span lang="en">Population and climate data</span><span lang="zh">人口與氣候資料</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Population maps of a country of your choice, graduated colours.</span><span lang="zh">自選國家的人口地圖，分級設色。</span></li>
+      <li><span lang="en">Downloaded non-urban land use zoning, rural regeneration and soil and water conservation layers, and built a first project file around them.</span><span lang="zh">下載非都市土地使用編定、農村再生、水土保持區圖層，並以此建立第一個專案檔。</span></li>
+      <li><span lang="en">Climate normals from the</span><span lang="zh">氣候平均值取自</span> <a href="https://www.cwa.gov.tw/V8/E/C/Statistics/monthlymean.html"><span lang="en">CWA monthly mean page</span><span lang="zh">氣象署月平均頁面</span></a><span lang="en">; station coordinates as a CSV, then as a shapefile; local data from</span><span lang="zh">；測站座標先做成 CSV，再轉成 shapefile；在地資料可從</span> <a href="https://opendata.cwa.gov.tw/dataset/climate?page=1"><span lang="en">CWA open data</span><span lang="zh">氣象資料開放平台</span></a><span lang="en">.</span><span lang="zh">取得。</span> <a href="skills.html#csv-points"><span lang="en">Skill: CSV to points</span><span lang="zh">技術：CSV 轉點</span></a></li>
+      <li><span lang="en">Board plan: add your data to the CSV, add CSV and SHP to QGIS, link the two datasets. Crop yields from earthstat.org, Taiwan only.</span><span lang="zh">白板計畫：把資料加進 CSV、把 CSV 和 SHP 加進 QGIS、連結兩份資料。作物產量從 earthstat.org 取台灣部分。</span></li>
+    </ul></div>
+    <div class="blk"><h4><span lang="en">Homework, due 7/14</span><span lang="zh">作業，7/14 交</span></h4><ul>
+      <li><span lang="en">A finished, titled PDF map of non-urban land in Taiwan.</span><span lang="zh">一張完成、有標題的台灣非都市土地 PDF 地圖。</span></li>
+      <li><span lang="en">Clean your climate data (CSV to SHP), style it, export a PDF, and save the QGIS project.</span><span lang="zh">整理氣候資料（CSV 轉 SHP），設定樣式，輸出 PDF，並存好 QGIS 專案。</span></li>
+      <li><span lang="en">Type up your CSV values and use the specific numbers to tell the storyline.</span><span lang="zh">把你的 CSV 數值整理出來，用具體數字寫故事線。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#population"><span lang="en">Maps: population</span><span lang="zh">地圖：人口</span></a><a href="maps.html#stations"><span lang="en">Maps: weather stations</span><span lang="zh">地圖：氣象測站</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/14</b><span lang="en">Tuesday</span><span lang="zh">週二</span></div>
+  <div>
+    <h3><span lang="en">Raster mosaics and crop data</span><span lang="zh">網格拼接與作物資料</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Merging raster tiles for more detailed topography, on Sri Lanka:</span><span lang="zh">以斯里蘭卡為例，拼接網格圖塊取得更細的地形：</span> <a href="https://www.qgistutorials.com/en/docs/3/raster_mosaicing_and_clipping.html">Raster Mosaicing and Clipping</a>.</li>
+      <li><span lang="en">Rice data:</span><span lang="zh">稻米資料：</span> <a href="https://data.gov.tw/en/datasets/95738"><span lang="en">rice production per hectare by county</span><span lang="zh">各縣市稻米每公頃產量</span></a>, <a href="https://data.gov.tw/dataset/174507">data.gov.tw 174507</a>, <a href="https://data.moa.gov.tw/open_search.aspx?id=038"><span lang="en">Ministry of Agriculture open data</span><span lang="zh">農業部開放資料</span></a>.</li>
+      <li><span lang="en">County boundaries from the</span><span lang="zh">縣市界線取自</span> <a href="https://data.gov.tw/en/datasets/20598"><span lang="en">second-level statistical areas</span><span lang="zh">二級發布區圖</span></a><span lang="en">; Dr. Daniel shared the national file (全國二級發布區圖.zip) on Drive.</span><span lang="zh">；Dr. Daniel 把全國檔（全國二級發布區圖.zip）放在 Drive 上分享。</span></li>
+    </ul></div>
+    <div class="blk"><h4><span lang="en">Homework, due 7/16</span><span lang="zh">作業，7/16 交</span></h4><ul>
+      <li><span lang="en">Work on the storyline and the data report.</span><span lang="zh">繼續寫故事線與資料報告。</span></li>
+      <li><span lang="en">Find shapefiles or data about rice and crops on</span><span lang="zh">在</span> <a href="https://data.gov.tw/">data.gov.tw</a><span lang="en">.</span><span lang="zh">找稻米與作物的 shapefile 或資料。</span></li>
+      <li><span lang="en">Find a way to merge the counties in the all-Taiwan layer with the crop data.</span><span lang="zh">想辦法把全台縣市圖層和作物資料合併。</span> <a href="skills.html#join"><span lang="en">Skill: table join</span><span lang="zh">技術：屬性表合併</span></a></li>
+    </ul></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/16</b><span lang="en">Thursday</span><span lang="zh">週四</span></div>
+  <div>
+    <h3><span lang="en">Storyline draft</span><span lang="zh">故事線初稿</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">The storyline text was consolidated into three paragraphs: Taiwan's compressed climate, accelerating warming, and an aging farming population.</span><span lang="zh">故事線整併成三段：台灣壓縮的氣候帶、加速的暖化、老化的農業人口。</span></li>
+      <li><span lang="en">A story technique to borrow: the baseball home-run study, where an invisible variable (air density) turned out to shape something everyone credited to skill.</span><span lang="zh">可借用的說故事手法：棒球全壘打研究。大家以為是球員實力的結果，其實有一部分被看不見的變數（空氣密度）左右。</span> <a href="https://www.npr.org/2023/04/12/1169266941/global-warming-could-be-juicing-baseball-home-runs-study-finds">NPR</a></li>
+    </ul></div>
+    <div class="blk"><h4><span lang="en">Homework, due 7/20</span><span lang="zh">作業，7/20 交</span></h4><ul>
+      <li><span lang="en">Finish writing and editing the story; check every link.</span><span lang="zh">寫完並修改故事；檢查每個連結。</span></li>
+      <li><span lang="en">Bring eight maps in total: everyone brings one of their own and one from the internet or research, or better, data that can go into QGIS.</span><span lang="zh">總共帶八張地圖：每人一張自己做的，加一張網路或文獻上的；更好的是帶可以放進 QGIS 的資料。</span></li>
+    </ul></div>
+  </div>
+</div>
+
+<p class="stage"><span lang="en">Stage 2 · Apply it to the project</span><span lang="zh">階段 2 · 套用到專案</span></p>
+
+<div class="session">
+  <div class="when"><b>7/20</b><span lang="en">Monday, online, 19:00</span><span lang="zh">週一，線上，19:00</span></div>
+  <div>
+    <h3><span lang="en">Two variables on one map</span><span lang="zh">一張圖兩個變數</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Moved from Tuesday 7/21 because of an off-campus iGEM event.</span><span lang="zh">因校外 iGEM 活動，從 7/21 週二改到這天。</span></li>
+      <li><span lang="en">Temperature with rice yield as proportional circles; crops with landslides.</span><span lang="zh">溫度搭配以比例圓表示的稻米產量；作物搭配山崩。</span></li>
+      <li><span lang="en">Station temperature tables arrived as PDF; the job was to turn them back into a CSV for QGIS.</span><span lang="zh">測站溫度表是 PDF，要先轉回 CSV 才能放進 QGIS。</span> <a href="skills.html#pdf-csv"><span lang="en">Skill: tables out of PDFs</span><span lang="zh">技術：從 PDF 取出表格</span></a></li>
+    </ul></div>
+    <div class="blk"><h4><span lang="en">Homework, due 7/23</span><span lang="zh">作業，7/23 交</span></h4><ul>
+      <li><span lang="en">Export your two maps as PDF. A screenshot is accepted only if it shows a title, the map, a legend and a scale.</span><span lang="zh">兩張地圖輸出成 PDF。截圖只有在包含標題、地圖、圖例、比例尺時才接受。</span></li>
+      <li><span lang="en">7/21 was the field trip. The CWA</span><span lang="zh">7/21 是校外考察。氣象署</span> <a href="https://agr.cwa.gov.tw/history/station_day"><span lang="en">agricultural weather stations</span><span lang="zh">農業氣象觀測網</span></a> <span lang="en">turned up that day as a source of daily station records.</span><span lang="zh">在當天被找到，可下載逐日測站資料。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#crops"><span lang="en">Maps: crops and temperature</span><span lang="zh">地圖：作物與溫度</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/23</b><span lang="en">Thursday</span><span lang="zh">週四</span></div>
+  <div>
+    <h3><span lang="en">Warming, and one map per person</span><span lang="zh">暖化，每人認領一張圖</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Everyone made a global-warming map of Taiwan from the same brief.</span><span lang="zh">每人依同一份題目畫一張台灣暖化地圖。</span></li>
+      <li><span lang="en">The storyline was split into numbered maps with an owner each: farmer age (Renee), drought stress and salinity (Anna), extreme weather and typhoon paths (Eva), and an animation.</span><span lang="zh">故事線拆成編號地圖，每張有負責人：農民年齡（Renee）、乾旱逆境與鹽度（Anna）、極端天氣與颱風路徑（Eva），外加一段動畫。</span></li>
+      <li><span lang="en">Board homework: give Claude your CSV and have it make an animated GIF; edit the text to include the field trip.</span><span lang="zh">白板作業：把 CSV 交給 Claude 做成動畫 GIF；把校外考察寫進文字。</span> <a href="skills.html#animation"><span lang="en">Skill: animated maps</span><span lang="zh">技術：動畫地圖</span></a></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#warming"><span lang="en">Maps: warming</span><span lang="zh">地圖：暖化</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/28</b><span lang="en">Tuesday</span><span lang="zh">週二</span></div>
+  <div>
+    <h3><span lang="en">Animation and farmer data</span><span lang="zh">動畫與農民資料</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Animation rules agreed beforehand: data from 1897 to 2025 is fine even if early years are thin, four seconds at most, overlay the difference instead of showing every number.</span><span lang="zh">事先講好的動畫原則：1897 到 2025 年的資料可用，早期縣市資料不全也沒關係；最長四秒；疊出差異，不要塞滿數字。</span></li>
+      <li><span lang="en">New layers: farmer age and gender by county, rice area by county and year, reservoir storage. Dr. Daniel shared a county shapefile (ClaudeTaiwan.zip).</span><span lang="zh">新圖層：各縣市農民年齡與性別、各縣市逐年稻作面積、水庫蓄水率。Dr. Daniel 分享了縣市 shapefile（ClaudeTaiwan.zip）。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#animation"><span lang="en">Maps: animation</span><span lang="zh">地圖：動畫</span></a><a href="maps.html#crops"><span lang="en">Maps: reservoirs</span><span lang="zh">地圖：水庫</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>7/30</b><span lang="en">Thursday</span><span lang="zh">週四</span></div>
+  <div>
+    <h3><span lang="en">A version 1 of every map</span><span lang="zh">每張圖都要有第一版</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Board list: animation (heat stress against crop yield), farmer age against stress, soil type across Taiwan, biotic stress from heat and humidity, night-time minimum temperature against crop yield, fertilizer pollution.</span><span lang="zh">白板清單：動畫（熱逆境對作物產量）、農民年齡對逆境、全台土壤類型、高溫加濕度的生物逆境、夜間最低溫對作物產量、肥料污染。</span></li>
+      <li><span lang="en">Jessie set the direction after the team's outreach: focus on precision agriculture, find data on fertilizer and pesticide overuse by region, and overlay heat and humidity with crop-specific thresholds.</span><span lang="zh">Jessie 依據團隊的外部訪談定下方向：聚焦精準農業，找各地區肥料與農藥過度使用的資料，並以作物別門檻疊加高溫與濕度。</span> <a href="project.html#direction"><span lang="en">Project: direction</span><span lang="zh">專案：方向</span></a></li>
+      <li><span lang="en">Data shared: rice yield 2013 to 2016 and twenty years of rice production (COA), mean relative humidity, fertilizer production and sales.</span><span lang="zh">分享的資料：2013 至 2016 年稻米產量與二十年稻米生產資料（農委會）、平均相對濕度、肥料產銷量。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#animation"><span lang="en">Maps: choropleth animation</span><span lang="zh">地圖：分區動畫</span></a><a href="maps.html#boards"><span lang="en">Maps: whiteboards</span><span lang="zh">地圖：白板</span></a></div>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>8/4</b><span lang="en">Tuesday</span><span lang="zh">週二</span></div>
+  <div>
+    <h3><span lang="en">Class cancelled</span><span lang="zh">停課</span></h3>
+    <ul><li><span lang="en">Dr. Daniel was ill and set work over Discord. Renee took on the humidity threshold that tomato pathogens favour.</span><span lang="zh">Dr. Daniel 生病，改在 Discord 交代作業。Renee 負責查番茄病原菌偏好的濕度門檻。</span></li></ul>
+  </div>
+</div>
+
+<div class="session">
+  <div class="when"><b>8/6</b><span lang="en">Thursday</span><span lang="zh">週四</span></div>
+  <div>
+    <h3><span lang="en">Last class: the wiki page</span><span lang="zh">最後一堂：wiki 頁面</span></h3>
+    <div class="blk"><h4><span lang="en">In class</span><span lang="zh">課堂</span></h4><ul>
+      <li><span lang="en">Storyline and map work as usual, then the structure of the QGIS wiki page: what is missing and how to bridge the parts, using Marburg 2024 as the model.</span><span lang="zh">照常寫故事線與做地圖，接著討論 QGIS wiki 頁面的架構：缺什麼、各部分怎麼銜接，以 Marburg 2024 為範本。</span></li>
+      <li><span lang="en">Reference for every raster pulled from the server:</span><span lang="zh">從伺服器取用的網格圖層，出處查這裡：</span> <a href="https://maps.nlsc.gov.tw/MbIndex_qryPage.action?fun=4&amp;language=EN">NLSC map service (EN)</a> · <a href="https://maps.nlsc.gov.tw/homePage.action?in_type=web"><span lang="en">Chinese</span><span lang="zh">中文版</span></a>.</li>
+      <li><span lang="en">World comparison for fertilizer:</span><span lang="zh">肥料的國際比較：</span> <a href="https://data.worldbank.org/indicator/AG.CON.FERT.ZS">World Bank AG.CON.FERT.ZS</a>.</li>
+      <li><span lang="en">Renee's farmer age against heat stress map, which became Figure 4 on the wiki.</span><span lang="zh">Renee 的農民年齡對熱逆境地圖，後來成為 wiki 的圖 4。</span></li>
+    </ul></div>
+    <div class="outs"><a href="maps.html#farmers"><span lang="en">Maps: farmers</span><span lang="zh">地圖：農民</span></a></div>
+  </div>
+</div>
+
+<p class="stage"><span lang="en">Stage 3 · After the course</span><span lang="zh">階段 3 · 課程之後</span></p>
+<div class="session">
+  <div class="when"><b>8/12 →</b></div>
+  <div>
+    <h3><span lang="en">Validation and writing</span><span lang="zh">驗證與寫作</span></h3>
+    <ul>
+      <li><span lang="en">Find a farm to visit and check the maps against what farmers say. The farmer interviews and the public forum on the wiki come from this step.</span><span lang="zh">找一處農場拜訪，拿地圖對照農民的說法。wiki 上的農民訪談和公開論壇就是這一步的成果。</span></li>
+      <li><span lang="en">The page went live in October 2026.</span><span lang="zh">頁面於 2026 年 10 月上線。</span> <a href="project.html"><span lang="en">From maps to the wiki</span><span lang="zh">從地圖到 wiki</span></a></li>
+    </ul>
+  </div>
+</div>
+
+</div></section>
+
+
+<footer><div class="wrap">
+  <p><span lang="en">GEMS Taiwan · GIS training, 2 July to 6 August 2026 · built from the GIS + Data Phys Discord server, the team's Google Docs and the ReLEAF Geospatial Analysis page.</span><span lang="zh">GEMS Taiwan · GIS 培訓，2026 年 7 月 2 日至 8 月 6 日 · 內容整理自 GIS + Data Phys Discord 伺服器、團隊 Google 文件與 ReLEAF Geospatial Analysis 頁面。</span></p>
+</div></footer>
+
+<div id="lb"><img alt=""></div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

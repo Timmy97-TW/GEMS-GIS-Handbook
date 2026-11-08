@@ -1,0 +1,149 @@
+<header class="hero"><div class="wrap">
+  <p class="eyebrow"><span lang="en">Open data for Taiwan agriculture and climate</span><span lang="zh">台灣農業與氣候開放資料</span></p>
+  <h1><span lang="en">Data sources</span><span lang="zh">資料來源</span></h1>
+  <p class="lede">
+    <span lang="en">Every source the course and the wiki page used, grouped by who publishes it, followed by the files the team made. Government links were checked against the wiki's reference list in October 2026.</span>
+    <span lang="zh">課程與 wiki 頁面用過的每個資料來源，依發布單位分組，後面附團隊自己產出的檔案。政府連結以 2026 年 10 月 wiki 參考文獻為準。</span>
+  </p>
+</div></header>
+
+<div class="subnav"><div class="wrap"><div class="toc">
+  <a href="#basemaps"><span lang="en">Basemaps</span><span lang="zh">底圖</span></a>
+  <a href="#gov"><span lang="en">data.gov.tw</span><span lang="zh">政府開放資料</span></a>
+  <a href="#climate"><span lang="en">Climate</span><span lang="zh">氣候</span></a>
+  <a href="#agri"><span lang="en">Agriculture</span><span lang="zh">農業</span></a>
+  <a href="#world"><span lang="en">World</span><span lang="zh">全球</span></a>
+  <a href="#files"><span lang="en">Team files</span><span lang="zh">團隊檔案</span></a>
+  <a href="#projects"><span lang="en">QGIS projects</span><span lang="zh">QGIS 專案</span></a>
+  <a href="#docs"><span lang="en">Team documents</span><span lang="zh">團隊文件</span></a>
+  <a href="#learn"><span lang="en">Tutorials</span><span lang="zh">教學資源</span></a>
+</div></div></div>
+
+<section id="basemaps"><div class="wrap">
+  <h2><span lang="en">Basemaps and terrain</span><span lang="zh">底圖與地形</span></h2>
+  <table class="t"><thead><tr><th><span lang="en">Source</span><span lang="zh">來源</span></th><th><span lang="en">What it gives you</span><span lang="zh">內容</span></th></tr></thead><tbody>
+    <tr><td><a href="https://maps.nlsc.gov.tw/T09E/mapshow.action"><span lang="en">Taiwan Online Map Service</span><span lang="zh">國土測繪圖資服務雲</span></a> · <code>https://wmts.nlsc.gov.tw/wmts</code></td><td><span lang="en">Base maps, aerial photos, land use and boundaries as WMTS tiles.</span><span lang="zh">底圖、航照、土地使用與行政界線（WMTS 圖磚）。</span> <a href="skills.html#wmts"><span lang="en">How to connect</span><span lang="zh">連線方式</span></a></td></tr>
+    <tr><td><a href="https://maps.nlsc.gov.tw/MbIndex_qryPage.action?fun=4&amp;language=EN"><span lang="en">NLSC layer list (EN)</span><span lang="zh">國土測繪中心圖層清單（英文）</span></a> · <a href="https://maps.nlsc.gov.tw/homePage.action?in_type=web"><span lang="en">Chinese</span><span lang="zh">中文</span></a></td><td><span lang="en">What each server layer is, for citing rasters.</span><span lang="zh">每個伺服器圖層的說明，引用網格圖層時查這裡。</span></td></tr>
+    <tr><td><a href="https://www.gsmma.gov.tw/nss/p/H001d2"><span lang="en">Geological Survey and Mining Management Agency</span><span lang="zh">經濟部地質調查及礦業管理中心</span></a></td><td><span lang="en">Geologically sensitive areas: landslides, active faults.</span><span lang="zh">地質敏感區：山崩、活動斷層。</span></td></tr>
+    <tr><td><a href="https://www.naturalearthdata.com">Natural Earth</a></td><td><span lang="en">World countries, cities, rivers, relief. Used for the first exercises.</span><span lang="zh">全球國界、城市、河川、地形。前幾個練習使用。</span></td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="gov"><div class="wrap">
+  <h2><span lang="en">Taiwan government open data</span><span lang="zh">政府資料開放平臺</span></h2>
+  <p class="sub"><span lang="en">Search</span><span lang="zh">搜尋入口：</span> <a href="https://data.gov.tw/">data.gov.tw</a><span lang="en">. Many datasets offer SHP and CSV side by side.</span><span lang="zh">。許多資料集同時提供 SHP 與 CSV。</span></p>
+  <table class="t"><thead><tr><th>ID</th><th><span lang="en">Dataset</span><span lang="zh">資料集</span></th><th><span lang="en">Used for</span><span lang="zh">用途</span></th></tr></thead><tbody>
+    <tr><td><a href="https://data.gov.tw/en/datasets/20598">20598</a></td><td><span lang="en">Second-level statistical areas (county boundaries)</span><span lang="zh">二級發布區圖（縣市界）</span></td><td><span lang="en">Base layer for every county map</span><span lang="zh">所有縣市地圖的底層</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/169539">169539</a></td><td><span lang="en">Non-urban land use zoning</span><span lang="zh">非都市土地使用編定</span></td><td><span lang="en">Where farmland is</span><span lang="zh">農地位置</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/173077">173077</a></td><td><span lang="en">Specific soil and water conservation areas</span><span lang="zh">特定水土保持區範圍圖</span></td><td><span lang="en">Terrain risk</span><span lang="zh">地形風險</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/176846">176846</a></td><td><span lang="en">Rural regeneration communities</span><span lang="zh">農村再生社區範圍圖</span></td><td><span lang="en">Rural communities</span><span lang="zh">農村社區</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/174975">174975</a></td><td><span lang="en">Rural community areas (4,271)</span><span lang="zh">全國農村社區範圍（4,271 處）</span></td><td><span lang="en">Rural communities</span><span lang="zh">農村社區</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/177247">177247</a></td><td><span lang="en">Leisure farm locations</span><span lang="zh">休閒農場位置圖</span></td><td><span lang="en">Farm points</span><span lang="zh">農場點位</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/95738">95738</a></td><td><span lang="en">Rice production per hectare by county</span><span lang="zh">各縣市稻米每公頃產量</span></td><td><span lang="en">Yield maps, wiki Figure 3</span><span lang="zh">產量地圖，wiki 圖 3</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/dataset/174507">174507</a></td><td><span lang="en">CSV set on 14 July for crop data</span><span lang="zh">7 月 14 日指定下載的作物 CSV</span></td><td><span lang="en">Crop layer</span><span lang="zh">作物圖層</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/dataset/80661">80661</a></td><td><span lang="en">Farm workers by sex and age</span><span lang="zh">農牧戶從事自家農牧業工作人口按性別及年齡分</span></td><td><span lang="en">Farmer age, wiki Figure 4</span><span lang="zh">農民年齡，wiki 圖 4</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/55747">55747</a></td><td><span lang="en">Detailed soil map</span><span lang="zh">詳測土壤圖</span></td><td><span lang="en">Soil variability, wiki Figure 2</span><span lang="zh">土壤變異，wiki 圖 2</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/dataset/9690">9690</a></td><td><span lang="en">Fertilizer production and sales</span><span lang="zh">臺灣地區肥料產銷量值</span></td><td><span lang="en">Fertilizer table, wiki Figure 6</span><span lang="zh">肥料表，wiki 圖 6</span></td></tr>
+    <tr><td><a href="https://data.gov.tw/en/datasets/7304">7304</a></td><td><span lang="en">Fertilizer management information</span><span lang="zh">肥料管理整合資訊</span></td><td><span lang="en">Fertilizer companies for the routing model</span><span lang="zh">路徑模型的肥料業者</span></td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="climate"><div class="wrap">
+  <h2><span lang="en">Climate</span><span lang="zh">氣候</span></h2>
+  <table class="t"><thead><tr><th><span lang="en">Source</span><span lang="zh">來源</span></th><th><span lang="en">What it gives you</span><span lang="zh">內容</span></th></tr></thead><tbody>
+    <tr><td><a href="https://www.cwa.gov.tw/V8/E/C/Statistics/monthlymean.html"><span lang="en">CWA monthly means</span><span lang="zh">氣象署月平均</span></a></td><td><span lang="en">1991 to 2020 normals per station: temperature, humidity, sunshine, wind, rainfall.</span><span lang="zh">各測站 1991 至 2020 年平均值：溫度、濕度、日照、風速、雨量。</span></td></tr>
+    <tr><td><a href="https://opendata.cwa.gov.tw/dataset/climate?page=1"><span lang="en">CWA open data, climate</span><span lang="zh">氣象資料開放平台</span></a></td><td><span lang="en">Machine-readable station data.</span><span lang="zh">機器可讀的測站資料。</span></td></tr>
+    <tr><td><a href="https://codis.cwa.gov.tw">CODiS</a></td><td><span lang="en">Historical observation lookup by station.</span><span lang="zh">依測站查詢歷史觀測資料。</span></td></tr>
+    <tr><td><a href="https://agr.cwa.gov.tw/history/station_day"><span lang="en">Agricultural weather stations</span><span lang="zh">農業氣象觀測網</span></a></td><td><span lang="en">Daily records from agricultural stations; CSV download, five years per request.</span><span lang="zh">農業測站逐日資料；可下載 CSV，每次最多五年。</span></td></tr>
+    <tr><td><a href="https://tccip.ncdr.nat.gov.tw">TCCIP</a></td><td><span lang="en">Taiwan climate change projections.</span><span lang="zh">臺灣氣候變遷推估資訊與調適知識平台。</span></td></tr>
+    <tr><td><a href="https://doi.org/10.1002/qj.3803">ERA5</a></td><td><span lang="en">Global reanalysis; used for night-time warming in tomato season (wiki Figure 10).</span><span lang="zh">全球再分析資料；用於番茄季夜溫上升（wiki 圖 10）。</span></td></tr>
+    <tr><td><a href="https://open-meteo.com">Open-Meteo</a></td><td><span lang="en">Free weather API with historical data.</span><span lang="zh">免費天氣 API，含歷史資料。</span></td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="agri"><div class="wrap">
+  <h2><span lang="en">Agriculture</span><span lang="zh">農業</span></h2>
+  <table class="t"><thead><tr><th><span lang="en">Source</span><span lang="zh">來源</span></th><th><span lang="en">What it gives you</span><span lang="zh">內容</span></th></tr></thead><tbody>
+    <tr><td><a href="https://data.moa.gov.tw/open_search.aspx?id=038"><span lang="en">MOA open data, crops</span><span lang="zh">農業部開放資料，作物</span></a></td><td><span lang="en">Crop area and production by county and year.</span><span lang="zh">各縣市逐年作物面積與產量。</span></td></tr>
+    <tr><td><a href="https://data.moa.gov.tw/open_detail.aspx?id=I75">MOA I75</a> · <a href="https://data.moa.gov.tw/open_search.aspx?id=139">MOA 139</a></td><td><span lang="en">Datasets cited on the wiki page.</span><span lang="zh">wiki 頁面引用的資料集。</span></td></tr>
+    <tr><td><a href="https://agrstat.moa.gov.tw/moasdweb/book/Book.aspx"><span lang="en">Agricultural statistics yearbook</span><span lang="zh">農業統計年報</span></a></td><td><span lang="en">Annual national tables.</span><span lang="zh">全國年度統計表。</span></td></tr>
+    <tr><td><a href="https://sqbs.moenv.gov.tw/public/English"><span lang="en">Taiwan soil information system</span><span lang="zh">土壤及地下水資訊系統</span></a></td><td><span lang="en">Soil pollution sites.</span><span lang="zh">土壤污染場址。</span></td></tr>
+    <tr><td><a href="https://eng.stat.gov.tw/News_Content.aspx?n=2406&amp;s=214666"><span lang="en">2020 agricultural census</span><span lang="zh">2020 年農林漁牧業普查</span></a></td><td><span lang="en">Farm size and farmer demographics.</span><span lang="zh">農場規模與農民人口結構。</span></td></tr>
+    <tr><td><a href="https://kmweb.moa.gov.tw/subject/subject.php?id=61256&amp;print=Y"><span lang="en">Tomato topic page</span><span lang="zh">番茄主題館</span></a></td><td><span lang="en">Tomato area and production (wiki Figure 9).</span><span lang="zh">番茄面積與產量（wiki 圖 9）。</span></td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="world"><div class="wrap">
+  <h2><span lang="en">World comparisons</span><span lang="zh">全球比較</span></h2>
+  <table class="t"><tbody>
+    <tr><td><a href="https://data.worldbank.org/indicator/AG.CON.FERT.ZS">World Bank AG.CON.FERT.ZS</a></td><td><span lang="en">Fertilizer use per hectare by country (wiki Figure 7).</span><span lang="zh">各國每公頃肥料用量（wiki 圖 7）。</span></td></tr>
+    <tr><td><a href="https://www.fas.usda.gov/data/production/tw">USDA FAS · Taiwan</a> · <a href="https://www.fas.usda.gov/data/production/0422110">rice</a></td><td><span lang="en">Production statistics for Taiwan and world rice.</span><span lang="zh">台灣與全球稻米產量統計。</span></td></tr>
+    <tr><td>earthstat.org</td><td><span lang="en">Global crop yield grids; named on the 9 July whiteboard.</span><span lang="zh">全球作物產量網格資料；7 月 9 日白板上提到。</span></td></tr>
+    <tr><td><a href="https://doi.org/10.48364/ISIMIP.682003.1">ISIMIP2b</a></td><td><span lang="en">Simulated crop yields under climate scenarios (wiki Figure 1).</span><span lang="zh">氣候情境下的模擬作物產量（wiki 圖 1）。</span></td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="files"><div class="wrap">
+  <h2><span lang="en">Team files</span><span lang="zh">團隊檔案</span></h2>
+  <p class="sub"><span lang="en">Data the course produced, kept in this repository. Every file opens directly.</span><span lang="zh">課程產出的資料，保存在本 repository 中，每個檔案都可直接開啟。</span></p>
+  <table class="t"><thead><tr><th><span lang="en">File</span><span lang="zh">檔案</span></th><th><span lang="en">What is in it</span><span lang="zh">內容</span></th><th><span lang="en">From</span><span lang="zh">提供者</span></th></tr></thead><tbody>
+    <tr><td><a href="archive/discord/media/ClaudeTaiwan-89900e7c8bc58cf7.zip">ClaudeTaiwan.zip</a></td><td><span lang="en">Taiwan county polygons (taiwan_counties.shp). Start here for any county map.</span><span lang="zh">台灣縣市面圖層（taiwan_counties.shp）。做縣市地圖從這裡開始。</span></td><td>Dr. Daniel, 7/28</td></tr>
+    <tr><td><a href="archive/discord/media/Taiwan_CWA_Stations-ecdb366335b42fb0.csv">Taiwan_CWA_Stations.csv</a> · <a href="archive/discord/media/Taiwan_CWA_stations-cc261596c90394e5.zip">.zip</a></td><td><span lang="en">CWA station IDs, names and coordinates, as CSV and as shapefile.</span><span lang="zh">氣象署測站代碼、名稱與座標，CSV 與 shapefile 各一份。</span></td><td>Dr. Daniel, 7/9</td></tr>
+    <tr><td><a href="archive/discord/media/taiwan_temps_yearly_summary-8211cba3f201af34.csv">taiwan_temps_yearly_summary.csv</a></td><td><span lang="en">Yearly temperature summary per station: mean of monthly maxima, highest, months at or above 35 and 36 °C.</span><span lang="zh">各測站年度溫度摘要：月最高溫平均、最高溫、達 35 與 36 °C 的月數。</span></td><td>Olivia, 7/20</td></tr>
+    <tr><td><a href="archive/discord/media/Mean_Relative_Humidity-ec2bdecfbfa205c8.zip">Mean_Relative_Humidity.zip</a></td><td><span lang="en">1991 to 2020 mean relative humidity per station, CSV and shapefile.</span><span lang="zh">1991 至 2020 年各測站平均相對濕度，CSV 與 shapefile。</span></td><td>Anna, 7/30</td></tr>
+    <tr><td><a href="archive/discord/media/taiwan_county_rice_yield_1980_2025-867a1c9a11e96f58.csv">taiwan_county_rice_yield_1980_2025.csv</a></td><td><span lang="en">Rice by county, season and year: area, yield per hectare, production. Behind the animation.</span><span lang="zh">各縣市、各期作、逐年稻米面積、單位產量、總產量。動畫的資料來源。</span></td><td>Eva, 7/30</td></tr>
+    <tr><td><a href="archive/discord/media/rice_area_by_county_year-318186183104843a.csv">rice_area_by_county_year.csv</a></td><td><span lang="en">Rice area and production by county and year, with county coordinates.</span><span lang="zh">各縣市逐年稻作面積與產量，附縣市座標。</span></td><td>Olivia, 7/28</td></tr>
+    <tr><td><a href="archive/discord/media/COA_OpenData_2-5263448175331d83.csv">COA_OpenData_2.csv</a></td><td><span lang="en">Rice yield by county, 2013 to 2016.</span><span lang="zh">2013 至 2016 年各縣市稻米產量。</span></td><td>Dr. Daniel, 7/30</td></tr>
+    <tr><td><a href="archive/discord/media/COA_OpenData_4-79b79a08e1089bfe.csv">COA_OpenData_4.csv</a></td><td><span lang="en">Twenty years of crop area and output by county.</span><span lang="zh">二十年各縣市作物面積與產量。</span></td><td>Dr. Daniel, 7/30</td></tr>
+    <tr><td><a href="archive/discord/media/COA_OpenData_5-c3085379e1b585d9.csv">COA_OpenData_5.csv</a></td><td><span lang="en">Fertilizer production and sales by type and year (dataset 9690).</span><span lang="zh">各類肥料逐年產銷量值（資料集 9690）。</span></td><td>Dr. Daniel, 7/30</td></tr>
+    <tr><td><a href="archive/discord/media/Farmer_age_taiwan-f4d7859a98e06978.csv">Farmer_age_taiwan.csv</a></td><td><span lang="en">Farmers per age bracket by county, with county codes for joining.</span><span lang="zh">各縣市各年齡級距農民人數，附縣市代碼可供合併。</span></td><td>Dr. Daniel, 7/28</td></tr>
+    <tr><td><a href="archive/discord/media/age_and_gender_of_farmers_in_taiwan-3965214f3306e0be.csv">age_and_gender_of_farmers_in_taiwan.csv</a></td><td><span lang="en">The raw government table behind it, by sex and age.</span><span lang="zh">上表的原始政府資料，依性別與年齡分。</span></td><td>Renee, 7/28</td></tr>
+    <tr><td><a href="archive/discord/media/Fertilizer-76b56b8b76ae266d.zip">Fertilizer.zip</a></td><td><span lang="en">Active farmland pollution sites and counties with soil-pollution attributes.</span><span lang="zh">農地污染場址，以及帶有土壤污染屬性的縣市圖層。</span></td><td>Anna, 7/30</td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="projects"><div class="wrap">
+  <h2><span lang="en">QGIS projects</span><span lang="zh">QGIS 專案</span></h2>
+  <p><span lang="en">These project files open, but their layers will not load: they point at data on the makers' laptops (see</span><span lang="zh">這些專案檔打得開，但圖層載入不了：它們指向製作者筆電上的資料（見</span> <a href="skills.html#share"><span lang="en">Sharing a project</span><span lang="zh">分享專案</span></a><span lang="en">). Their layer lists still show which datasets each map combined.</span><span lang="zh">）。不過圖層清單仍看得出每張圖組合了哪些資料。</span></p>
+  <table class="t"><thead><tr><th><span lang="en">Project</span><span lang="zh">專案</span></th><th><span lang="en">Layers it expects</span><span lang="zh">需要的圖層</span></th><th><span lang="en">From</span><span lang="zh">提供者</span></th></tr></thead><tbody>
+    <tr><td><a href="archive/discord/media/Non-urban_Lands_Across_Taiwan-87afdbe2360bce98.qgz">Non-urban_Lands_Across_Taiwan.qgz</a></td><td><span lang="en">Non-urban land use zoning by county; soil and water conservation areas</span><span lang="zh">各縣市非都市土地使用編定；特定水土保持區</span></td><td>Anna, 7/9</td></tr>
+    <tr><td><a href="archive/discord/media/dirt_land-5da04f8860f0cdc1.qgz">dirt_land.qgz</a></td><td><span lang="en">Rural regeneration communities; non-urban land zoning; aerial photo basemap</span><span lang="zh">農村再生社區；非都市土地使用編定；航照底圖</span></td><td>Olivia, 7/9</td></tr>
+    <tr><td><a href="archive/discord/media/dirt_land_map-3d066371cb386889.qgz">dirt_land_map.qgz</a></td><td><span lang="en">Non-urban land zoning; NLSC non-urban land basemap</span><span lang="zh">非都市土地使用編定；國土測繪中心非都市土地底圖</span></td><td>Eva, 7/9</td></tr>
+    <tr><td><a href="archive/discord/media/non-urban_use_places_aaauuughhh-bd3001f61c318630.qgz">non-urban_use_places.qgz</a></td><td><span lang="en">Non-urban land zoning across counties</span><span lang="zh">跨縣市非都市土地使用編定</span></td><td>Renee, 7/9</td></tr>
+    <tr><td><a href="archive/discord/media/Mean_temperature_1990-2020-775dba7c65f14a5a.qgz">Mean_temperature_1990-2020.qgz</a></td><td><span lang="en">CWA stations; mean temperature CSV joined by coordinates</span><span lang="zh">氣象署測站；以座標載入的平均溫度 CSV</span></td><td>Renee, 7/9</td></tr>
+    <tr><td><a href="archive/discord/media/crop_and_landslide_map-0c54a57ad3bd6f22.qgz">crop_and_landslide_map.qgz</a></td><td><span lang="en">Natural vegetation; detailed soil map (Big5 name); county basemap</span><span lang="zh">現生天然植群；詳測土壤圖（Big5 檔名）；縣市底圖</span></td><td>Eva, 7/20</td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="docs"><div class="wrap">
+  <h2><span lang="en">Team documents</span><span lang="zh">團隊文件</span></h2>
+  <p class="sub"><span lang="en">Google Drive and other links shared in the channel. They need the owner's permission to open.</span><span lang="zh">頻道裡分享的 Google Drive 等連結，需要擁有者授權才能開啟。</span></p>
+  <table class="t"><tbody>
+    <tr><td><a href="https://docs.google.com/document/d/1gOmZJpC1hms2Z6Q8ix4PHfvEjNUws2avMSEvXgjSkvI/edit">QGIS Storyline Google Doc</a></td><td><span lang="en">Every draft of the storyline, Dr. Daniel's feedback, the citation format and the cleaned final text.</span><span lang="zh">故事線的所有版本、Dr. Daniel 的回饋、引用格式與最終定稿。</span></td></tr>
+    <tr><td><a href="https://docs.google.com/document/d/1vryq1iXCSjSADWgi2L9R8dfziykWGfkid5GEdcUwQVU/edit">GIS Notes</a></td><td><span lang="en">Class notes from 14 July.</span><span lang="zh">7 月 14 日課堂筆記。</span></td></tr>
+    <tr><td><a href="https://docs.google.com/document/d/1q6Kj8TH4QkVkI0sqgtu78_DtYIZZas_lXlwFkmapfx8/edit">Progress QGIS</a></td><td><span lang="en">Map-by-map progress and figure descriptions up to 30 July.</span><span lang="zh">至 7 月 30 日的逐圖進度與圖說。</span></td></tr>
+    <tr><td><a href="https://drive.google.com/drive/folders/1kUrwyaxDikEZNa6Zo3BdEpXHEpeZy7yY">"This is the Gold"</a></td><td><span lang="en">Folder of CWA 1991 to 2020 average data per variable, as CSV.</span><span lang="zh">氣象署 1991 至 2020 年各變數平均資料 CSV 資料夾。</span></td></tr>
+    <tr><td><a href="https://docs.google.com/spreadsheets/d/1JxZVpwg4YbEJoNY1cLkAIDUrXMbK7xSqlm1iuUjXllg/edit">Every five years data</a></td><td><span lang="en">Temperature every five years, behind the animation.</span><span lang="zh">每五年的溫度資料，動畫的來源。</span></td></tr>
+    <tr><td><a href="https://docs.google.com/spreadsheets/d/1ETUkaWd3e0cdpI9Sze2mPQUWSLmT5MQBn41GxhzAMss/edit">Age and gender of farmers in Taiwan</a></td><td><span lang="en">Working sheet for the farmer-age map.</span><span lang="zh">農民年齡地圖的工作表。</span></td></tr>
+    <tr><td><a href="https://1drv.ms/x/c/7225a05ba82dd017/IQCeOGsWwjfvT4NsQcLfq2j7Aac58jQZStbkaWsZ9nQMoMQ"><span lang="en">Taiwan cities with climate averages</span><span lang="zh">台灣城市經緯度與氣候平均</span></a></td><td><span lang="en">OneDrive sheet: city coordinates with average climate.</span><span lang="zh">OneDrive 試算表：城市座標與氣候平均值。</span></td></tr>
+    <tr><td><a href="https://docs.google.com/spreadsheets/d/1lGxgw1oHGX8mIwX8nLwHcASsbdBsUdOOrkJZ2Si3a0M/edit">Taiwan GIS Physicalization Materials</a></td><td><span lang="en">Parts lists for the LED data-physicalization prototypes (21 and 28 July).</span><span lang="zh">LED 資料實體化原型的零件清單（7 月 21 日與 28 日）。</span></td></tr>
+    <tr><td><a href="https://canva.link/egyqy6f83hdx3n3">GEMs Taiwan x QGIS</a></td><td><span lang="en">Canva deck for the 7 July project talks.</span><span lang="zh">7 月 7 日專案報告的 Canva 簡報。</span></td></tr>
+  </tbody></table>
+</div></section>
+<hr class="sep">
+
+<section id="learn"><div class="wrap">
+  <h2><span lang="en">Tutorials and models</span><span lang="zh">教學與範例</span></h2>
+  <table class="t"><tbody>
+    <tr><td><a href="https://www.qgistutorials.com/en/">qgistutorials.com</a></td><td><span lang="en">The course followed these tutorials throughout.</span><span lang="zh">整門課都依照這套教學進行。</span></td></tr>
+    <tr><td><a href="https://2024.igem.wiki/marburg/gis">iGEM Marburg 2024 · GIS</a></td><td><span lang="en">The page the team studied when planning its own.</span><span lang="zh">團隊規劃自己的頁面時參考的範例。</span></td></tr>
+    <tr><td><a href="https://2026.igem.wiki/gems-taiwan/geospatial-analysis">ReLEAF 2026 · Geospatial Analysis</a></td><td><span lang="en">What this course produced.</span><span lang="zh">這門課的最終成果。</span></td></tr>
+  </tbody></table>
+</div></section>

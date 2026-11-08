@@ -1,0 +1,64 @@
+{
+  "guild": {
+    "id": "1521456968080822402",
+    "name": "GIS + Data Phys",
+    "iconUrl": "../media/aee65933ad51aad3cbdccfc9e821a100-6b39aedf1151a19e.png"
+  },
+  "channel": {
+    "id": "1527124847963017246",
+    "type": "GuildPublicThread",
+    "categoryId": "1521804863321669632",
+    "category": "important-documents",
+    "name": "DOC",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-11-08T17:56:44.305001+08:00",
+  "messages": [
+    {
+      "id": "1527124847963017246",
+      "type": "Default",
+      "timestamp": "2026-07-16T09:28:56.362+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://docs.google.com/document/d/1gOmZJpC1hms2Z6Q8ix4PHfvEjNUws2avMSEvXgjSkvI/edit?tab=t.f3ln7f6alfqv",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "QGIS Storyline Google Doc",
+          "url": "https://docs.google.com/document/d/1gOmZJpC1hms2Z6Q8ix4PHfvEjNUws2avMSEvXgjSkvI/edit?tab=t.f3ln7f6alfqv",
+          "timestamp": null,
+          "description": "Needed for data physicalization of public forum Heat stress/high temperature Small farmer distribution    Agriculture is what everything depends on Agriculture is only sustainable with Farmers (30%) Climate change threatens agriculture (30%) As a result, the biomanufacturing (economy) is affecte...",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/J6wx30SVUPenc3LnTVwL8fs4o1zU_ukZoH4DfLBlf3g/https/lh7-us.googleusercontent.com/docs/AHkbwyJZ56LqLE0jEb02Ky_KkR7qCTyn0s9H1t0Bw_AbWK5veCQfgCqcQa0CZDGn14CQ151-WzHSUGfL0w44gclQI1pYpAy172pHdij-tCCa4-o79xm1IUZm%3Dw1200-h630-p",
+            "canonicalUrl": "https://lh7-us.googleusercontent.com/docs/AHkbwyJZ56LqLE0jEb02Ky_KkR7qCTyn0s9H1t0Bw_AbWK5veCQfgCqcQa0CZDGn14CQ151-WzHSUGfL0w44gclQI1pYpAy172pHdij-tCCa4-o79xm1IUZm=w1200-h630-p",
+            "width": 1200,
+            "height": 630
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 1
+}

@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QGIS Skills · GEMS GIS Handbook</title>
+<meta name="description" content="How GEMS Taiwan learned QGIS in summer 2026 and turned it into the ReLEAF Geospatial Analysis page: course, skills, data sources, maps and the full Discord record.">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-lang="zh">
+
+<nav class="nav"><div class="nav-in">
+  <a class="brand" href="index.html">GEMS GIS</a>
+  <div class="nav-links">
+    <a href="course.html"><span lang="en">Course</span><span lang="zh">課程</span></a>
+    <a href="skills.html" class="on"><span lang="en">Skills</span><span lang="zh">技術</span></a>
+    <a href="data.html"><span lang="en">Data</span><span lang="zh">資料來源</span></a>
+    <a href="maps.html"><span lang="en">Maps</span><span lang="zh">地圖作品</span></a>
+    <a href="project.html"><span lang="en">Project</span><span lang="zh">從地圖到 wiki</span></a>
+    <a href="archive.html"><span lang="en">Archive</span><span lang="zh">原始紀錄</span></a>
+  </div>
+  <button id="langbtn" class="langbtn" type="button">English</button>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <p class="eyebrow"><span lang="en">QGIS 3.44 LTR</span><span lang="zh">QGIS 3.44 LTR</span></p>
+  <h1><span lang="en">Skills</span><span lang="zh">技術</span></h1>
+  <p class="lede">
+    <span lang="en">Every technique the course used, in the order you will need it. Each one has the steps, the trap the team actually hit, and where it came from.</span>
+    <span lang="zh">課程用到的每一項技術，照需要的先後排列。每項附步驟、團隊實際踩到的坑，以及出處。</span>
+  </p>
+</div></header>
+
+<div class="subnav"><div class="wrap"><div class="toc">
+  <a href="#setup"><span lang="en">Setup</span><span lang="zh">安裝</span></a>
+  <a href="#wmts"><span lang="en">WMTS basemap</span><span lang="zh">WMTS 底圖</span></a>
+  <a href="#layout"><span lang="en">Map layout</span><span lang="zh">版面輸出</span></a>
+  <a href="#styling"><span lang="en">Styling</span><span lang="zh">樣式</span></a>
+  <a href="#formats"><span lang="en">Raster and vector</span><span lang="zh">網格與向量</span></a>
+  <a href="#csv-points"><span lang="en">CSV to points</span><span lang="zh">CSV 轉點</span></a>
+  <a href="#shapefiles"><span lang="en">Shapefiles</span><span lang="zh">Shapefile</span></a>
+  <a href="#share"><span lang="en">Sharing projects</span><span lang="zh">分享專案</span></a>
+  <a href="#join"><span lang="en">Table join</span><span lang="zh">屬性表合併</span></a>
+  <a href="#field-calc"><span lang="en">Field calculator</span><span lang="zh">欄位計算機</span></a>
+  <a href="#two-vars"><span lang="en">Two variables</span><span lang="zh">雙變數</span></a>
+  <a href="#mosaic"><span lang="en">Raster mosaic</span><span lang="zh">網格拼接</span></a>
+  <a href="#pdf-csv"><span lang="en">Tables out of PDFs</span><span lang="zh">PDF 取表格</span></a>
+  <a href="#llm"><span lang="en">LLM data prompt</span><span lang="zh">LLM 資料提示詞</span></a>
+  <a href="#animation"><span lang="en">Animated maps</span><span lang="zh">動畫地圖</span></a>
+  <a href="#sources"><span lang="en">Sources and citation</span><span lang="zh">出處與引用</span></a>
+</div></div></div>
+
+<section><div class="wrap">
+
+<div class="skill" id="setup">
+  <h3><span lang="en">Setup</span><span lang="zh">安裝</span></h3>
+  <p class="why"><span lang="en">Everything in this handbook assumes these three things are in place.</span><span lang="zh">本手冊的所有內容都以這三項為前提。</span></p>
+  <ol>
+    <li><span lang="en">Install</span><span lang="zh">安裝</span> <a href="https://qgis.org/download/">QGIS</a><span lang="en">, the long-term release (LTR). The team used 3.44; some later work was saved from 4.0.</span><span lang="zh">長期支援版（LTR）。團隊用 3.44，部分後期作品用 4.0 存檔。</span></li>
+    <li><span lang="en">Download</span><span lang="zh">下載</span> <a href="https://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip">Natural Earth quick start</a><span lang="en">: world countries, cities, rivers and relief, free and public domain. The first exercises use it.</span><span lang="zh">：全球國界、城市、河川與地形，免費且屬公共領域。前幾個練習都用它。</span></li>
+    <li><span lang="en">Connect the Taiwan basemap (next card).</span><span lang="zh">接上台灣底圖（下一張卡）。</span></li>
+  </ol>
+  <p class="src"><span lang="en">Source: important-documents › Preliminary, 1 July.</span><span lang="zh">出處：important-documents › Preliminary，7 月 1 日。</span></p>
+</div>
+
+<div class="skill" id="wmts">
+  <h3><span lang="en">Taiwan basemap over WMTS</span><span lang="zh">用 WMTS 接台灣底圖</span></h3>
+  <p class="why"><span lang="en">The National Land Surveying and Mapping Center (NLSC) serves Taiwan's official base maps, aerial photos and land-use layers as tiles. Connect once and they appear in every project.</span><span lang="zh">國土測繪中心（NLSC）以圖磚方式提供官方底圖、航照與土地使用圖層。連線一次，之後每個專案都能用。</span></p>
+  <ol>
+    <li><span lang="en">In the Browser panel, right-click <b>WMS/WMTS</b> and choose <b>New Connection</b>.</span><span lang="zh">在 Browser 面板對 <b>WMS/WMTS</b> 按右鍵，選 <b>New Connection</b>。</span></li>
+    <li><span lang="en">Name it <code>NLSC</code>. URL:</span><span lang="zh">名稱填 <code>NLSC</code>，URL 填：</span> <code>https://wmts.nlsc.gov.tw/wmts</code></li>
+    <li><span lang="en">Leave authentication off and image format PNG. Click OK.</span><span lang="zh">不需驗證，影像格式選 PNG，按 OK。</span></li>
+    <li><span lang="en">Expand NLSC and drag a layer onto the map. The tiles are in EPSG:3857 (GoogleMapsCompatible).</span><span lang="zh">展開 NLSC，把圖層拖到地圖上。圖磚座標系統為 EPSG:3857（GoogleMapsCompatible）。</span></li>
+  </ol>
+  <div class="pair">
+    <figure class="wide"><img src="archive/discord/media/Screenshot_2026-07-03_at_12.19.21_PM-c70cefb8a8e1f04d.png" alt="QGIS Browser with the NLSC connection under WMS/WMTS"><figcaption><span lang="en">The connection in the Browser panel.</span><span lang="zh">Browser 面板中的連線。</span></figcaption></figure>
+    <figure class="wide"><img src="archive/discord/media/Screenshot_2026-07-03_at_12.19.29_PM-8b4df2be5d4ddd91.png" alt="Edit WMS/WMTS connection dialog with the NLSC URL"><figcaption><span lang="en">The connection settings.</span><span lang="zh">連線設定。</span></figcaption></figure>
+  </div>
+  <p><span lang="en">Layers the team used, by their server names: <code>PHOTO2</code> (aerial photo), <code>nURBAN1</code> (non-urban land use), <code>CITY</code> (county boundaries), <code>B100000</code>. To see what any layer is, look it up on the</span><span lang="zh">團隊用過的圖層（伺服器名稱）：<code>PHOTO2</code>（正射影像）、<code>nURBAN1</code>（非都市土地使用）、<code>CITY</code>（縣市界）、<code>B100000</code>。各圖層的說明請查</span> <a href="https://maps.nlsc.gov.tw/MbIndex_qryPage.action?fun=4&amp;language=EN"><span lang="en">NLSC layer list</span><span lang="zh">國土測繪中心圖層清單</span></a><span lang="en">.</span><span lang="zh">。</span></p>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">WMTS layers are pictures. You can style how they display but you cannot query, join or count them. When you need the data behind a layer, download the shapefile from data.gov.tw instead.</span><span lang="zh">WMTS 圖層只是圖片，可以調整顯示方式，但無法查詢、合併或計數。需要圖層背後的資料時，改從 data.gov.tw 下載 shapefile。</span></p>
+  <p class="src"><span lang="en">Source: #chat, Dr. Daniel, 3 July and 6 August; layer names read from the team's .qgz files.</span><span lang="zh">出處：#chat，Dr. Daniel，7 月 3 日與 8 月 6 日；圖層名稱取自團隊的 .qgz 檔。</span></p>
+</div>
+
+<div class="skill" id="layout">
+  <h3><span lang="en">Map layout and export</span><span lang="zh">版面與輸出</span></h3>
+  <p class="why"><span lang="en">A map without a title, legend and scale is a screenshot. Dr. Daniel graded on these four from the first homework.</span><span lang="zh">沒有標題、圖例和比例尺的地圖只是截圖。Dr. Daniel 從第一份作業就以這四項評分。</span></p>
+  <ol>
+    <li><span lang="en"><b>Project › New Print Layout</b>, then <b>Add Map</b> and drag a frame.</span><span lang="zh"><b>Project › New Print Layout</b>，再用 <b>Add Map</b> 拉出地圖框。</span></li>
+    <li><span lang="en">Add a <b>title</b> (Add Label), a <b>legend</b>, a <b>scale bar</b> and a <b>north arrow</b>.</span><span lang="zh">加入<b>標題</b>（Add Label）、<b>圖例</b>、<b>比例尺</b>與<b>指北針</b>。</span></li>
+    <li><span lang="en">Put your name on the sheet. <b>Layout › Export as PDF</b>.</span><span lang="zh">在圖上署名。<b>Layout › Export as PDF</b>。</span></li>
+  </ol>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">Homework was PDF only. When an export failed, a screenshot was accepted only if it still showed the title, the map, the legend and the scale.</span><span lang="zh">作業只收 PDF。輸出失敗時，截圖必須仍包含標題、地圖、圖例、比例尺才會被接受。</span></p>
+  <p class="src"><span lang="en">Source: #chat, 3 and 21 July.</span><span lang="zh">出處：#chat，7 月 3 日與 21 日。</span></p>
+</div>
+
+<div class="skill" id="styling">
+  <h3><span lang="en">Vector and raster styling</span><span lang="zh">向量與網格樣式</span></h3>
+  <p class="why"><span lang="en">Two tutorials set as the first homework. Styling decides what the reader sees first.</span><span lang="zh">第一份作業指定的兩份教學。樣式決定讀者先看到什麼。</span></p>
+  <ol>
+    <li><a href="https://www.qgistutorials.com/en/docs/3/basic_vector_styling.html">Basic Vector Styling</a> · <a href="https://www.qgistutorials.com/en/docs/3/raster_styling_and_analysis.html">Basic Raster Styling and Analysis</a>.</li>
+    <li><span lang="en"><b>Categorized</b> for kinds of things (renewable or not, soil type). <b>Graduated</b> for amounts (population, temperature).</span><span lang="zh">種類用 <b>Categorized</b>（是否再生能源、土壤類型）；數量用 <b>Graduated</b>（人口、溫度）。</span></li>
+    <li><span lang="en">Compare the six versions of the same warming map on the</span><span lang="zh">比較</span> <a href="maps.html#warming"><span lang="en">Maps page</span><span lang="zh">地圖作品頁</span></a> <span lang="en">to see how class breaks and colour change the message.</span><span lang="zh">上同一張暖化地圖的六個版本，看分級和配色如何改變訊息。</span></li>
+  </ol>
+</div>
+
+<div class="skill" id="formats">
+  <h3><span lang="en">Raster and vector</span><span lang="zh">網格與向量</span></h3>
+  <p class="why"><span lang="en">The two kinds of GIS data. Knowing which one you have decides every next step.</span><span lang="zh">GIS 資料的兩大類。先知道手上是哪一種，後面每一步才知道怎麼做。</span></p>
+  <table class="t">
+    <thead><tr><th></th><th><span lang="en">Raster</span><span lang="zh">網格（Raster）</span></th><th><span lang="en">Vector</span><span lang="zh">向量（Vector）</span></th></tr></thead>
+    <tbody>
+      <tr><td><span lang="en">Made of</span><span lang="zh">組成</span></td><td><span lang="en">A grid of cells (pixels)</span><span lang="zh">一格一格的像素</span></td><td><span lang="en">Points, lines, polygons</span><span lang="zh">點、線、面</span></td></tr>
+      <tr><td><span lang="en">Good for</span><span lang="zh">適合</span></td><td><span lang="en">Things that vary smoothly: temperature, elevation</span><span lang="zh">連續變化的東西：溫度、高程</span></td><td><span lang="en">Discrete features: stations, roads, county borders</span><span lang="zh">離散的物件：測站、道路、縣市界</span></td></tr>
+      <tr><td><span lang="en">Files</span><span lang="zh">檔案</span></td><td>.tif, .asc, WMTS tiles</td><td>.shp, .geojson, .gpkg, CSV with coordinates</td></tr>
+    </tbody>
+  </table>
+  <p class="src"><span lang="en">Source: the guide on the ReLEAF Geospatial Analysis page.</span><span lang="zh">出處：ReLEAF Geospatial Analysis 頁面上的入門指南。</span></p>
+</div>
+
+<div class="skill" id="csv-points">
+  <h3><span lang="en">CSV with coordinates to points</span><span lang="zh">有座標的 CSV 轉成點</span></h3>
+  <p class="why"><span lang="en">Most Taiwan data arrives as a table: stations, farms, readings. This is how a table becomes a layer.</span><span lang="zh">台灣的資料多半是表格：測站、農場、觀測值。這是表格變成圖層的方法。</span></p>
+  <ol>
+    <li><span lang="en">Lay the CSV out as Dr. Daniel drew it: one row per station, columns <code>StationID, Name, Latitude, Longitude</code>, then one column per value (Jan to Dec, or one per year).</span><span lang="zh">依 Dr. Daniel 在白板上的格式排 CSV：一列一個測站，欄位 <code>StationID, Name, Latitude, Longitude</code>，接著每個數值一欄（1 到 12 月，或每年一欄）。</span></li>
+    <li><span lang="en"><b>Layer › Add Layer › Add Delimited Text Layer</b>. CSV files cannot be dragged in from the Browser panel.</span><span lang="zh"><b>Layer › Add Layer › Add Delimited Text Layer</b>。CSV 無法從 Browser 面板直接拖入。</span></li>
+    <li><span lang="en">Point coordinates: X field <code>Longitude</code>, Y field <code>Latitude</code>, CRS <code>EPSG:4326 - WGS 84</code>.</span><span lang="zh">點座標：X 欄 <code>Longitude</code>、Y 欄 <code>Latitude</code>，CRS 選 <code>EPSG:4326 - WGS 84</code>。</span></li>
+    <li><span lang="en">To keep it as a real layer, right-click › <b>Export › Save Features As</b> › ESRI Shapefile or GeoPackage.</span><span lang="zh">要存成正式圖層：右鍵 › <b>Export › Save Features As</b> › ESRI Shapefile 或 GeoPackage。</span></li>
+  </ol>
+  <p><span lang="en">Worked example:</span><span lang="zh">範例檔：</span> <a href="archive/discord/media/Taiwan_CWA_Stations-ecdb366335b42fb0.csv">Taiwan_CWA_Stations.csv</a> <span lang="en">and the shapefile made from it,</span><span lang="zh">與由它轉出的 shapefile</span> <a href="archive/discord/media/Taiwan_CWA_stations-cc261596c90394e5.zip">Taiwan_CWA_stations.zip</a><span lang="en">.</span><span lang="zh">。</span></p>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">Longitude is X and latitude is Y. Swap them and Taiwan lands in the Indian Ocean. Values near 120 and 23 mean degrees (EPSG:4326); six- or seven-digit values mean a projected system such as TWD97 (EPSG:3826), and you must say so when loading.</span><span lang="zh">經度是 X、緯度是 Y，填反了台灣會跑到印度洋。數值在 120 與 23 附近是經緯度（EPSG:4326）；六、七位數的數值是投影座標，例如 TWD97（EPSG:3826），載入時要選對。</span></p>
+  <p class="src"><span lang="en">Source: #chat, 9 July; whiteboard of 9 July; the wiki guide.</span><span lang="zh">出處：#chat，7 月 9 日；7 月 9 日白板；wiki 入門指南。</span></p>
+</div>
+
+<div class="skill" id="shapefiles">
+  <h3><span lang="en">Shapefiles</span><span lang="zh">Shapefile</span></h3>
+  <p class="why"><span lang="en">The standard vector format, and the one data.gov.tw uses. One shapefile is several files that must travel together.</span><span lang="zh">標準的向量格式，也是 data.gov.tw 使用的格式。一個 shapefile 由好幾個檔案組成，必須放在一起。</span></p>
+  <ol>
+    <li><span lang="en">Keep <code>.shp .shx .dbf .prj .cpg</code> together. <code>.prj</code> holds the coordinate system; <code>.cpg</code> holds the text encoding.</span><span lang="zh"><code>.shp .shx .dbf .prj .cpg</code> 要放在一起。<code>.prj</code> 記錄座標系統，<code>.cpg</code> 記錄文字編碼。</span></li>
+    <li><span lang="en">QGIS opens a zipped shapefile without unzipping: drag the .zip from the Browser panel.</span><span lang="zh">QGIS 可以直接開啟壓縮的 shapefile：從 Browser 面板把 .zip 拖進來即可。</span></li>
+  </ol>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">Older government files name their layers and fields in Big5. One of the team's projects shows a soil map whose Chinese name had turned to garbage characters. If labels or field names look broken, open <b>Layer Properties › Source</b> and set the encoding to <code>Big5</code>; if the file name itself is broken, re-extract the zip with an extractor that lets you choose the encoding.</span><span lang="zh">較舊的政府檔案用 Big5 命名圖層與欄位。團隊有一個專案裡的土壤圖，中文檔名就變成了亂碼。標籤或欄位名稱亂碼時，到 <b>Layer Properties › Source</b> 把編碼設成 <code>Big5</code>；若是檔名本身亂碼，換一個能指定編碼的解壓縮工具重新解壓。</span></p>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">Zips made on a Mac carry a <code>__MACOSX</code> folder. Ignore it; it is not data.</span><span lang="zh">Mac 壓縮的檔案會多一個 <code>__MACOSX</code> 資料夾，忽略即可，那不是資料。</span></p>
+</div>
+
+<div class="skill" id="share">
+  <h3><span lang="en">Sharing a project</span><span lang="zh">分享專案</span></h3>
+  <p class="why"><span lang="en">The most expensive lesson in the archive. A .qgz project file stores links to data, not the data.</span><span lang="zh">整份紀錄裡代價最高的一課：.qgz 專案檔只存資料的連結，不存資料本身。</span></p>
+  <p><span lang="en">Six projects were posted to the channel, each 10 to 17 KB. Every one points at files on its maker's laptop, such as <code>../../../Downloads/Original files/…</code> or <code>./Desktop/gis/…</code>, so nobody else can open them. They are kept on the</span><span lang="zh">頻道裡貼了六個專案檔，每個只有 10 到 17 KB。它們全都指向製作者筆電上的檔案，例如 <code>../../../Downloads/Original files/…</code> 或 <code>./Desktop/gis/…</code>，所以別人都打不開。這些檔案保留在</span> <a href="data.html#projects"><span lang="en">Data page</span><span lang="zh">資料來源頁</span></a> <span lang="en">because their layer lists still show which datasets each map used.</span><span lang="zh">，因為它們的圖層清單仍能看出每張圖用了哪些資料。</span></p>
+  <ol>
+    <li><span lang="en">Keep each project in its own folder with a <code>data/</code> subfolder, and save with relative paths (the QGIS default).</span><span lang="zh">每個專案一個資料夾，資料放在 <code>data/</code> 子資料夾，用相對路徑存檔（QGIS 預設）。</span></li>
+    <li><span lang="en">Before sharing, run <b>Processing › Toolbox › Package layers</b> to write every layer into one GeoPackage, or zip the whole folder.</span><span lang="zh">分享前執行 <b>Processing › Toolbox › Package layers</b>，把所有圖層寫進一個 GeoPackage，或把整個資料夾壓縮。</span></li>
+    <li><span lang="en">Share the PDF for people to look at and the package for people to work on.</span><span lang="zh">給人看的分享 PDF，給人接手的分享打包檔。</span></li>
+  </ol>
+</div>
+
+<div class="skill" id="join">
+  <h3><span lang="en">Table join: counties plus a CSV</span><span lang="zh">屬性表合併：縣市加 CSV</span></h3>
+  <p class="why"><span lang="en">Most project maps colour counties by a number that lives in a separate table: rice yield, farmer age, fertilizer use.</span><span lang="zh">大多數專案地圖是用另一份表格裡的數字替縣市上色：稻米產量、農民年齡、肥料用量。</span></p>
+  <ol>
+    <li><span lang="en">Load a county layer, for example</span><span lang="zh">載入縣市圖層，例如</span> <a href="archive/discord/media/ClaudeTaiwan-89900e7c8bc58cf7.zip">ClaudeTaiwan.zip</a> <span lang="en">(taiwan_counties.shp), and the CSV with Add Delimited Text Layer set to <b>No geometry</b>.</span><span lang="zh">（taiwan_counties.shp），並用 Add Delimited Text Layer 載入 CSV，幾何選 <b>No geometry</b>。</span></li>
+    <li><span lang="en">County layer › <b>Properties › Joins › +</b>. Join layer: the CSV. Join field and target field: the column both share.</span><span lang="zh">縣市圖層 › <b>Properties › Joins › +</b>。Join layer 選 CSV，Join field 與 Target field 選兩邊共有的欄位。</span></li>
+    <li><span lang="en">Open the attribute table and check that the joined columns are filled for every county.</span><span lang="zh">打開屬性表，確認每個縣市的合併欄位都有值。</span></li>
+  </ol>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">Join on a code, never on a name. 台 and 臺 differ, English spellings differ, and the counties changed in 2010 (台北縣 became 新北市; Taichung, Tainan and Kaohsiung counties merged into their cities), so a 1980 to 2025 series will not match today's boundaries by name. The team's</span><span lang="zh">用代碼合併，不要用名稱。「台」與「臺」不同、英文拼法不同，而且 2010 年縣市改制（台北縣改為新北市；台中、台南、高雄縣與市合併），1980 到 2025 年的資料用名稱對不上現在的界線。團隊的</span> <a href="archive/discord/media/Farmer_age_taiwan-f4d7859a98e06978.csv">Farmer_age_taiwan.csv</a> <span lang="en">carries <code>COUNTY_ID</code> for this reason.</span><span lang="zh">就是為此帶了 <code>COUNTY_ID</code> 欄。</span></p>
+  <p class="src"><span lang="en">Source: #chat, homework of 14 July.</span><span lang="zh">出處：#chat，7 月 14 日作業。</span></p>
+</div>
+
+<div class="skill" id="field-calc">
+  <h3><span lang="en">Field calculator: an average from age brackets</span><span lang="zh">欄位計算機：由年齡級距算平均</span></h3>
+  <p class="why"><span lang="en">Census tables give counts per age bracket, not an average. Renee's farmer-age map needed one number per county.</span><span lang="zh">普查表給的是各年齡級距的人數，不是平均年齡。Renee 的農民年齡地圖需要每個縣市一個數字。</span></p>
+  <ol>
+    <li><span lang="en">Take the midpoint of each bracket (15–24 → 19.5, 25–44 → 34.5, 45–64 → 54.5, 65–69 → 67). The open bracket "above 70" has no midpoint: pick a value, write it down, and state it in the caption.</span><span lang="zh">取每個級距的中點（15–24 → 19.5、25–44 → 34.5、45–64 → 54.5、65–69 → 67）。「70 歲以上」是開放級距、沒有中點：自己選一個值，記下來，並寫在圖說裡。</span></li>
+    <li><span lang="en">Open the attribute table › <b>Field Calculator</b> › new decimal field, then an expression like:</span><span lang="zh">開啟屬性表 › <b>Field Calculator</b> › 新增小數欄位，輸入類似下面的運算式：</span></li>
+  </ol>
+  <pre class="code">( "Ages 15-24" * 19.5 + "Ages 25-44" * 34.5 + "Ages 45-64" * 54.5
+  + "Ages 65-69" * 67 + "Above 70" * 75 ) / "Total People"</pre>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">The 75 above is an example, not a fact. The choice moves every county's average, so it belongs in the figure legend. Renee's own note: "I made the average by taking the median of all the age ranges and then calculating the average for each county in the field calculator."</span><span lang="zh">上面的 75 只是示範，不是事實。這個值會影響每個縣市的平均，所以必須寫進圖例。Renee 自己的說明：先取每個年齡級距的中位數，再用欄位計算機算出每個縣市的平均。</span></p>
+  <p class="src"><span lang="en">Source: #chat, Renee, 29 July.</span><span lang="zh">出處：#chat，Renee，7 月 29 日。</span></p>
+</div>
+
+<div class="skill" id="two-vars">
+  <h3><span lang="en">Two variables on one map</span><span lang="zh">一張圖兩個變數</span></h3>
+  <p class="why"><span lang="en">The project's argument is an overlap: hot places where old farmers grow rice. That takes two variables on one sheet.</span><span lang="zh">專案的論點是一種重疊：高溫地區剛好是高齡農民種稻的地方。這需要在同一張圖上放兩個變數。</span></p>
+  <ol>
+    <li><span lang="en">Colour the counties by the first variable (graduated fill).</span><span lang="zh">第一個變數用縣市面的分級填色。</span></li>
+    <li><span lang="en">Put the second on a point layer at each county's centre (<b>Vector › Geometry Tools › Centroids</b>) and size the symbols by value (<b>Graduated › Method: Size</b>).</span><span lang="zh">第二個變數放在縣市中心點圖層（<b>Vector › Geometry Tools › Centroids</b>），用數值決定符號大小（<b>Graduated › Method: Size</b>）。</span></li>
+    <li><span lang="en">Write the legend so it says what the circle means, as Anna's did: "the larger the purple circle, the greater the relative rice crop yield per county".</span><span lang="zh">圖例要說清楚圓代表什麼，像 Anna 那樣寫：「紫色圓越大，該縣市相對稻米產量越高」。</span></li>
+  </ol>
+  <p><span lang="en">Examples:</span><span lang="zh">範例：</span> <a href="maps.html#crops"><span lang="en">temperature and rice yield</span><span lang="zh">溫度與稻米產量</span></a> · <a href="maps.html#farmers"><span lang="en">farmer age and heat stress</span><span lang="zh">農民年齡與熱逆境</span></a>.</p>
+</div>
+
+<div class="skill" id="mosaic">
+  <h3><span lang="en">Raster mosaic and clip</span><span lang="zh">網格拼接與裁切</span></h3>
+  <p class="why"><span lang="en">Elevation and satellite data come in tiles. Merge them into one raster, then clip it to your area.</span><span lang="zh">高程與衛星資料是一塊一塊的圖磚。先拼成一張網格，再裁切到研究範圍。</span></p>
+  <ol>
+    <li><span lang="en">Follow</span><span lang="zh">照著</span> <a href="https://www.qgistutorials.com/en/docs/3/raster_mosaicing_and_clipping.html">Raster Mosaicing and Clipping</a> <span lang="en">(the class used its Sri Lanka data).</span><span lang="zh">做（課堂用的是教學裡的斯里蘭卡資料）。</span></li>
+    <li><span lang="en"><b>Raster › Miscellaneous › Merge</b>, then <b>Raster › Extraction › Clip Raster by Mask Layer</b> with a county or island outline.</span><span lang="zh"><b>Raster › Miscellaneous › Merge</b>，再用縣市或本島輪廓執行 <b>Raster › Extraction › Clip Raster by Mask Layer</b>。</span></li>
+  </ol>
+  <p class="src"><span lang="en">Source: GIS Notes (Google Doc), class of 14 July.</span><span lang="zh">出處：GIS Notes（Google 文件），7 月 14 日課堂。</span></p>
+</div>
+
+<div class="skill" id="pdf-csv">
+  <h3><span lang="en">Tables out of PDFs</span><span lang="zh">從 PDF 取出表格</span></h3>
+  <p class="why"><span lang="en">Many Taiwan statistics are published as PDF. QGIS cannot read them until they are a CSV again.</span><span lang="zh">很多台灣統計資料只以 PDF 發布。轉回 CSV 之前，QGIS 讀不了。</span></p>
+  <ol>
+    <li><span lang="en">Try the source first: data.gov.tw and the CWA usually offer CSV next to the PDF.</span><span lang="zh">先找原始來源：data.gov.tw 和氣象署通常在 PDF 旁邊也提供 CSV。</span></li>
+    <li><span lang="en">If only a PDF exists, extract the table with a spreadsheet import or an LLM, then spot-check at least five rows against the PDF.</span><span lang="zh">只有 PDF 時，用試算表匯入或 LLM 取出表格，再拿 PDF 抽查至少五列。</span></li>
+    <li><span lang="en">When an LLM summarises a table for you, make it state its rules. In the 20 July example the summary first restated how it read the request (ignore records before 1985, use the last 30 reporting years per station, average the year-to-year change) before giving numbers.</span><span lang="zh">請 LLM 幫你摘要表格時，要它先說明規則。7 月 20 日的範例裡，摘要在給數字之前先重述它怎麼理解需求（忽略 1985 年以前的紀錄、每站取最近 30 個有資料的年份、平均逐年變化）。</span></li>
+  </ol>
+  <p><span lang="en">Files:</span><span lang="zh">檔案：</span> <a href="archive/discord/media/taiwan_temps_yearly_summary-8211cba3f201af34.csv">taiwan_temps_yearly_summary.csv</a> · <a href="archive/discord/media/CSV_-f394b657e826697b.pdf"><span lang="en">the summary as PDF</span><span lang="zh">摘要 PDF</span></a>.</p>
+</div>
+
+<div class="skill" id="llm">
+  <h3><span lang="en">An LLM prompt for messy geodata</span><span lang="zh">整理雜亂地理資料的 LLM 提示詞</span></h3>
+  <p class="why"><span lang="en">The team's own contribution on the wiki: one reusable prompt that turns inconsistent tables into a clean CSV, GeoJSON or shapefile without letting the model invent coordinates.</span><span lang="zh">團隊放在 wiki 上的貢獻：一份可重複使用的提示詞，把不一致的表格轉成乾淨的 CSV、GeoJSON 或 shapefile，而且不讓模型捏造座標。</span></p>
+  <p><span lang="en">Its rules: use only values in the file; flag missing or ambiguous fields; show the working for any calculation; point out unusable coordinates before using them; state the output CRS.</span><span lang="zh">規則：只用檔案裡有的數值；標出缺漏或不明確的欄位；計算要附過程；先指出無法使用的座標；明確寫出輸出的座標系統。</span></p>
+  <pre class="code">I'm working with spatial data that I need prepared for use in QGIS.
+
+Current data format: [CSV / GeoJSON / Shapefile]
+Desired fields in output: [e.g. site_id, latitude, longitude, organism, soil_type, ph, collection_date]
+Desired output format: [CSV / GeoJSON / .shp]
+Destination: This output will be loaded directly into QGIS for spatial analysis.
+My question: [e.g. "convert this into a clean GeoJSON with only the fields I need"]
+
+Step 1 — Locate the coordinates.
+Before answering my question, find the fields in my data that represent location
+(e.g. latitude/longitude, lat/lon, X/Y, easting/northing, or a combined
+"coordinates" field). Tell me which columns you identified and what you believe
+their coordinate reference system (CRS) is, based on the values and any metadata
+in the file (e.g. values in the range -180 to 180 / -90 to 90 suggest WGS84;
+large 6-7 digit values suggest a projected CRS like UTM). If the CRS is not
+stated and cannot be reasonably inferred, say so explicitly and ask me rather
+than assuming WGS84 by default.
+
+Step 2 — Prepare for QGIS.
+- Reproject/report coordinates so the final output is usable in QGIS. For
+  GeoJSON, use WGS84 (EPSG:4326) with [longitude, latitude] order, per spec.
+- If the source data is already in a projected CRS and I haven't asked for
+  reprojection, keep the original values but state the CRS explicitly in your
+  answer so it can be set correctly in QGIS.
+- For shapefile output, note that a .prj file defining the CRS is required —
+  tell me what it should contain.
+
+Rules for your answer:
+1. Only use values that are actually present in the file. Extracting or
+   reformatting an existing coordinate (splitting a combined field, converting
+   units, reprojecting a stated CRS) is allowed and expected. Inventing,
+   estimating, or geocoding a coordinate that is not derivable from the file's
+   own data is not allowed — flag those records as "missing coordinates" instead.
+2. If a field is missing, empty, or ambiguous for a record, say so explicitly
+   rather than guessing — flag it as "uncertain" rather than filling it in.
+3. If my question requires a calculation (distance, area, count, filter), show
+   your work or the logic you used, not just the final number.
+4. If a coordinate or value looks unusable (out of valid range, inconsistent
+   format, mismatched CRS across rows), point it out before using it.
+5. Give me output in exactly the format I requested, ready to copy or download,
+   and state the CRS of that output explicitly in your reply.</pre>
+  <p class="src"><span lang="en">Source: ReLEAF Geospatial Analysis page, Text 1, quoted unchanged.</span><span lang="zh">出處：ReLEAF Geospatial Analysis 頁面 Text 1，原文照錄。</span></p>
+</div>
+
+<div class="skill" id="animation">
+  <h3><span lang="en">Animated maps</span><span lang="zh">動畫地圖</span></h3>
+  <p class="why"><span lang="en">The wiki's opening figures are animations: warming against rice yield over 1980 to 2026. Eva made five versions before the wiki one.</span><span lang="zh">wiki 開場的圖就是動畫：1980 到 2026 年的升溫對稻米產量。Eva 在 wiki 版本之前做了五版。</span></p>
+  <ol>
+    <li><span lang="en">Inside QGIS: give the layer a date field, turn on <b>Layer Properties › Temporal</b>, then use the <b>Temporal Controller</b> panel and <b>Export Animation</b> to write frames.</span><span lang="zh">在 QGIS 裡：圖層要有日期欄位，開啟 <b>Layer Properties › Temporal</b>，再用 <b>Temporal Controller</b> 面板的 <b>Export Animation</b> 輸出每一格。</span></li>
+    <li><span lang="en">Outside QGIS: the course also had an LLM write the GIF straight from the CSV. Either way, check one frame against the data by hand.</span><span lang="zh">在 QGIS 外：課堂也讓 LLM 直接由 CSV 產生 GIF。不論哪種方式，都要拿一格畫面手動對照資料。</span></li>
+  </ol>
+  <p><span lang="en">Design rules agreed on 24 July: four seconds at most; overlay the difference instead of maximising data; counties may appear as their data begins. Eva's legend convention: blank means too few years, hatched means less precise.</span><span lang="zh">7 月 24 日講定的設計原則：最長四秒；疊出差異，不求塞滿資料；縣市可以在有資料的年份才出現。Eva 的圖例慣例：空白代表年份太少，斜線代表精度較低。</span></p>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">Removing data points changes the story. When Eva dropped three stations on 28 July she said so in the message. Do the same in the caption.</span><span lang="zh">移除資料點會改變故事。Eva 在 7 月 28 日移除三個測站時，在訊息裡寫明了。圖說裡也要這樣寫。</span></p>
+</div>
+
+<div class="skill" id="sources">
+  <h3><span lang="en">Sources and citation</span><span lang="zh">出處與引用</span></h3>
+  <p class="why"><span lang="en">Every number on a map needs a source someone else can open. A dataset with no source cannot go on the wiki.</span><span lang="zh">地圖上的每個數字都要有別人打得開的出處。沒有出處的資料集不能放上 wiki。</span></p>
+  <p><span lang="en">Format the team used, from the storyline doc:</span><span lang="zh">團隊在故事線文件裡用的格式：</span></p>
+  <pre class="code">Author. Map title [format]. Scale. Place of production: Producer, Date.
+Using: Software title [format]. Edition. Place: Producer, Date.
+
+Taiwan Central Weather Administration. Monthly Mean Temperature in Taiwan,
+between 1991-2020. &lt;https://www.cwa.gov.tw/V8/E/C/Statistics/monthlymean.html&gt;,
+January 2021. Using QGIS 4.0.3.</pre>
+  <p><span lang="en">More cases:</span><span lang="zh">更多範例：</span> <a href="https://guides.lib.trentu.ca/GIS/citation">Trent University GIS citation guide</a>.</p>
+  <p class="trap"><b><span lang="en">Trap</span><span lang="zh">注意</span></b> · <span lang="en">The table posted on 7 August for the regional fertilizer map (fifteen regions, round tonnages) has no source in the channel. Before a table like that reaches a page, trace each number to where it was published. The national fertilizer figures on the wiki come from the Ministry of Agriculture's annual series (data.gov.tw 9690).</span><span lang="zh">8 月 7 日為區域肥料地圖貼出的表格（十五個區域、整數噸數）在頻道裡沒有出處。這樣的表格要上頁面之前，每個數字都要追到它的發布來源。wiki 上的全國肥料數字來自農業部的年度統計（data.gov.tw 9690）。</span></p>
+</div>
+
+</div></section>
+
+
+<footer><div class="wrap">
+  <p><span lang="en">GEMS Taiwan · GIS training, 2 July to 6 August 2026 · built from the GIS + Data Phys Discord server, the team's Google Docs and the ReLEAF Geospatial Analysis page.</span><span lang="zh">GEMS Taiwan · GIS 培訓，2026 年 7 月 2 日至 8 月 6 日 · 內容整理自 GIS + Data Phys Discord 伺服器、團隊 Google 文件與 ReLEAF Geospatial Analysis 頁面。</span></p>
+</div></footer>
+
+<div id="lb"><img alt=""></div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

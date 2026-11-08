@@ -1,0 +1,55 @@
+{
+  "guild": {
+    "id": "1521456968080822402",
+    "name": "GIS + Data Phys",
+    "iconUrl": "../media/aee65933ad51aad3cbdccfc9e821a100-6b39aedf1151a19e.png"
+  },
+  "channel": {
+    "id": "1521814328414834728",
+    "type": "GuildPublicThread",
+    "categoryId": "1521804863321669632",
+    "category": "important-documents",
+    "name": "Marburg Case Study",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-11-08T17:56:50.807898+08:00",
+  "messages": [
+    {
+      "id": "1521814328414834728",
+      "type": "Default",
+      "timestamp": "2026-07-01T17:46:49.837+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://2024.igem.wiki/marburg/gis#",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [
+        {
+          "id": "1521814329316606042",
+          "url": "../media/image-a8416f6e779ee0fc.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 8396774
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 1
+}

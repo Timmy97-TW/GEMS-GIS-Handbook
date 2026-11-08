@@ -1,0 +1,64 @@
+{
+  "guild": {
+    "id": "1521456968080822402",
+    "name": "GIS + Data Phys",
+    "iconUrl": "../media/aee65933ad51aad3cbdccfc9e821a100-6b39aedf1151a19e.png"
+  },
+  "channel": {
+    "id": "1521819853848182885",
+    "type": "GuildPublicThread",
+    "categoryId": "1521804863321669632",
+    "category": "important-documents",
+    "name": "Preliminary",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-11-08T17:56:47.938421+08:00",
+  "messages": [
+    {
+      "id": "1521819853848182885",
+      "type": "Default",
+      "timestamp": "2026-07-01T18:08:47.203+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hello we will have GIS training soon from 7/2 - 8/6 every Tuesday and Thursday afternoon, GIS will be a data-driven decision making tool to build up the  project story, models predictions,  strengthen business plan decision evidence and support data  physicalisation, instructors have chosen some representative from different subteam to join the training:\n\n@Sophia Yeh , @ethanl @Audrey Chu , @Anna Chuang , @Eva Zhong , @Renée Kuo \n\nThe GIS teacher is called Daniel, he is an expert in developing historical GIS, Creative Director of the project in UC Berkeley. \n\nI am passing the following message from him to help you prepare for the class.\n\nPlease download the following software and database before Thur class: \nQGIS\nhttps://qgis.org/download/\n\nNatural Earth DataSet:\nhttps://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip\n\nGet familiar with the natural earth data depository from\nnaturalearthdata.com\n\nMake sure you are able to access the following site for the Taiwan data\nmaps.nlsc.gov.tw",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Download · QGIS",
+          "url": "https://qgis.org/download/",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "../media/QGIScover-9caccdc1f8ad181b.png",
+            "canonicalUrl": "https://qgis.org/img/QGIScover.png",
+            "width": 1200,
+            "height": 767
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 1
+}

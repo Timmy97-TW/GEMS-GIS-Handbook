@@ -1,0 +1,337 @@
+{
+  "guild": {
+    "id": "1521456968080822402",
+    "name": "GIS + Data Phys",
+    "iconUrl": "../media/aee65933ad51aad3cbdccfc9e821a100-6b39aedf1151a19e.png"
+  },
+  "channel": {
+    "id": "1521809946692550818",
+    "type": "GuildTextChat",
+    "categoryId": "1521456968672481354",
+    "category": "Text Channels",
+    "name": "milestones",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-11-08T17:56:38.865364+08:00",
+  "messages": [
+    {
+      "id": "1521809983904288879",
+      "type": "Default",
+      "timestamp": "2026-07-01T17:29:34.025+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [
+        {
+          "id": "1521809983753424986",
+          "url": "../media/image-86259b562894d4b6.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 236223
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521810049448808451",
+      "type": "Default",
+      "timestamp": "2026-07-01T17:29:49.652+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [
+        {
+          "id": "1521810049352335441",
+          "url": "../media/image-21d3e88cf906b559.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 5416987
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1521827336868200609",
+      "type": "Default",
+      "timestamp": "2026-07-01T18:38:31.294+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is the story and vision we have this year.",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537094244085403758",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:43:45.62+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [
+        {
+          "id": "1537094243754049638",
+          "url": "../media/image-a63252f0847ae42f.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 120046
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537094515616260186",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:44:50.358+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "???",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537094555307081748",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:44:59.821+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "what is that supposed to mean",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537094830700634113",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:46:05.48+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Timmmy",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "844122807369203752",
+          "name": "timmhy",
+          "discriminator": "0000",
+          "nickname": "Timmmy",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537095319005696040",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:48:01.901+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "844122807369203752",
+        "name": "timmhy",
+        "discriminator": "0000",
+        "nickname": "Timmmy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/238da39cfd9972a655f46cc887a48058-e565410213300bb2.png"
+      },
+      "attachments": [
+        {
+          "id": "1537095318632661012",
+          "url": "../media/image-80e0d167406f7033.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 190334
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537095603916378162",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:49:09.829+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ohhhh ok",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537095627379441716",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:49:15.423+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "for the validation trip right",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1537095665002352730",
+      "type": "Default",
+      "timestamp": "2026-08-12T21:49:24.393+08:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so we have to find a farm to visit",
+      "author": {
+        "id": "1122880916323307562",
+        "name": "va1th3nerd_87506",
+        "discriminator": "0000",
+        "nickname": "Renee",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "../media/2a39f88686f40186d815adda98bf5f5d-530271b7a0f0f990.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 11
+}
